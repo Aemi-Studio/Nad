@@ -1,0 +1,116 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "collab" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nad is a collaboration between Aemi Studio and Aploide SRL.\n\nAploide SRL is the author of the blocklist Nad uses to protect you from ads and trackers.\n\nSince we don't use or save any data from your usage of the app, we don't share the data with anyone."
+          }
+        }
+      }
+    },
+    "disabled" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disabled"
+          }
+        }
+      }
+    },
+    "doweknowtrafic.explanation" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No."
+          }
+        }
+      }
+    },
+    "doweknowtrafic.title" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Do we intercept, spy or know about your traffic?"
+          }
+        }
+      }
+    },
+    "dowesavedata.explanation" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No."
+          }
+        }
+      }
+    },
+    "dowesavedata.title" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Do we save or record any data from your usage of Nad?"
+          }
+        }
+      }
+    },
+    "Enable Nad in " : {
+
+    },
+    "enabled" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enabled"
+          }
+        }
+      }
+    },
+    "extension-description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Block ads and tracking scripts."
+          }
+        }
+      }
+    },
+    "Extensions settings of Safari" : {
+
+    },
+    "howdoesitwork.explanation" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "We use a static blocklist (a simple JSON file) meant to block resources from loading when you navigate to any website. Those resources can be ads, scripts, trackers and some other things."
+          }
+        }
+      }
+    },
+    "howdoesitwork.title" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "How does Nad work?"
+          }
+        }
+      }
+    },
+    "nad" : {
+
+    }
+  },
+  "version" : "1.0"
+}
