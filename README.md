@@ -41,12 +41,15 @@ Nad is licensed under the **Mozilla Public License 2.0 (MPL 2.0)**. For more inf
 
 ## Contact & Support
 If you have any questions, issues, or feedback, feel free to reach out to us:
-- **Aemi Studio**: [public@aemistudio.com](mailto:public@aemistudio.com)
+- **Aemi Studio**: [public@aemi.studio](mailto:public@aemi.studio)
 - **Aploide**: [yo@aploide.com](mailto:yo@aploide.com)
 
 Stay updated with the latest features and announcements by following us on social media:
 - GitHub: [Aemi Studio](https://github.com/Aemi-Studio)
 - GitHub: [Aploide](https://github.com/aploide)
+
+## Thanks
+Nad has been kickstarted from [Ka-Block!](https://github.com/dgraham/Ka-Block) by [David Graham (@dgraham)](https://github.com/dgraham) and [Joshua Peek (@josh)](https://github.com/josh).
 
 ---
 
