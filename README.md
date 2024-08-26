@@ -42,7 +42,7 @@ Nad is licensed under the **Mozilla Public License 2.0 (MPL 2.0)**. For more inf
 ## Contact & Support
 If you have any questions, issues, or feedback, feel free to reach out to us:
 - **Aemi Studio**: [public@aemi.studio](mailto:public@aemi.studio)
-- **Aploide**: [yo@aploide.com](mailto:yo@aploide.com)
+- **Aploide**: [yo@aploi.de](mailto:yo@aploi.de)
 
 Stay updated with the latest features and announcements by following us on social media:
 - GitHub: [Aemi Studio](https://github.com/Aemi-Studio)
