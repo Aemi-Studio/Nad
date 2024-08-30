@@ -1,12 +1,21 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    " " : {
+
+    },
+    "Aemi Studio" : {
+
+    },
+    "APLOI.DE" : {
+
+    },
     "collab" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nad is a collaboration between Aemi Studio and Aploide SRL.\n\nAploide SRL is the author of the blocklist Nad uses to protect you from ads and trackers.\n\nSince we don't use or save any data from your usage of the app, we don't share the data with anyone."
+            "value" : "Nad is a collaboration between Aemi Studio and Aploide SRL.\n\nAploide SRL is the author of the blocklist Nad uses to protect you from ads and trackers.\n\nSince we don't use or save any data from your usage of the app, no data is shared with anyone."
           }
         }
       }
@@ -17,6 +26,26 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Disabled"
+          }
+        }
+      }
+    },
+    "doesitblockyoutube.explanation" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not yet. We're working on that."
+          }
+        }
+      }
+    },
+    "doesitblockyoutube.title" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Does it block YouTube ads?"
           }
         }
       }
@@ -61,8 +90,25 @@
         }
       }
     },
-    "Enable Nad in " : {
-
+    "enable.nad.safari" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enable Nad in Safari"
+          }
+        }
+      }
+    },
+    "enable.nad.settings" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enable Nad in Settings"
+          }
+        }
+      }
     },
     "enabled" : {
       "localizations" : {
@@ -84,9 +130,6 @@
           }
         }
       }
-    },
-    "Extensions settings of Safari" : {
-
     },
     "howdoesitwork.explanation" : {
       "localizations" : {
@@ -110,6 +153,72 @@
     },
     "nad" : {
 
+    },
+    "Open in your default browser" : {
+
+    },
+    "privacyPolicy" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Privacy Policy"
+          }
+        }
+      }
+    },
+    "privacyPolicy.aemiStudio" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aemi Studio's Privacy Policy"
+          }
+        }
+      }
+    },
+    "privacyPolicy.aploide" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "APLOI.DE's Privacy Policy"
+          }
+        }
+      }
+    },
+    "Safari" : {
+
+    },
+    "settings.apps.safari.extensions" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Extensions"
+          }
+        }
+      }
+    },
+    "settings.apps.title" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apps"
+          }
+        }
+      }
+    },
+    "settings.title" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Settings"
+          }
+        }
+      }
     }
   },
   "version" : "1.0"
