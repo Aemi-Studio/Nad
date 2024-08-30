@@ -1,6 +1,6 @@
 # Nad - Adblocker for Safari
 
-![Nad Logo](https://raw.githubusercontent.com/Aemi-Studio/Nad/main/App/Assets.xcassets/AppIcon.appiconset/Nad.128.png)
+![Nad Logo](https://raw.githubusercontent.com/Aemi-Studio/Nad/main/App/Assets.xcassets/AppIcon.appiconset/Icon128.png)
 
 ## Overview
 Nad is a powerful and lightweight ad blocker for Safari, meticulously designed by **Aemi Studio** and **Aploide**. Whether you're browsing on your iPhone, iPad, Mac, or VisionOS devices, Nad ensures a cleaner, faster, and more private browsing experience by effectively blocking intrusive ads and trackers.
