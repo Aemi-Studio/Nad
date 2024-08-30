@@ -24,7 +24,6 @@ struct MainScreen: View {
             .padding(0)
             .frame(maxWidth: 600)
         }
-
     }
 }
 

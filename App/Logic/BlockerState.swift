@@ -44,9 +44,9 @@ final class BlockerState {
     var isEnabled: Bool {
         switch state {
         case let .success(isEnabled):
-            return isEnabled
+            isEnabled
         case .failure, nil:
-            return false
+            false
         }
     }
 
