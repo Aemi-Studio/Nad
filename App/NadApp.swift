@@ -9,13 +9,15 @@ struct NadApp: App {
     var body: some Scene {
         WindowGroup {
             MainScreen()
-            #if os(macOS)
-                .frame(idealWidth: 375, idealHeight: 640)
-            #endif
+                #if os(macOS)
+                .frame(minWidth: 375, minHeight: 604)
+                .frame(maxWidth: 375, maxHeight: 604)
+                .blurryBackground()
+                #endif
                 .environment(blockerState)
         }
         #if os(macOS)
-        .windowResizability(.automatic)
+        .windowResizability(.contentSize)
         .windowStyle(.hiddenTitleBar)
         #endif
     }

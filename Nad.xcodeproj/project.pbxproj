@@ -13,22 +13,52 @@
 		0381081326CC50D9008A912C /* BlockerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0381081226CC50D9008A912C /* BlockerState.swift */; };
 		03AB920126BB211E00C6DFFD /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AB91F726BB20CE00C6DFFD /* ContentBlockerRequestHandler.swift */; };
 		03AB922726BB254800C6DFFD /* NadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AB922626BB254800C6DFFD /* NadApp.swift */; };
+		462029882C7A680300EA021A /* eo+general.json in Resources */ = {isa = PBXBuildFile; fileRef = 4620297E2C7A680300EA021A /* eo+general.json */; };
+		462029892C7A680300EA021A /* eo+general.json in Resources */ = {isa = PBXBuildFile; fileRef = 4620297E2C7A680300EA021A /* eo+general.json */; };
+		4620298A2C7A680300EA021A /* eo+general.json in Resources */ = {isa = PBXBuildFile; fileRef = 4620297E2C7A680300EA021A /* eo+general.json */; };
+		4620298B2C7A680300EA021A /* as+adult.json in Resources */ = {isa = PBXBuildFile; fileRef = 462029802C7A680300EA021A /* as+adult.json */; };
+		4620298C2C7A680300EA021A /* as+adult.json in Resources */ = {isa = PBXBuildFile; fileRef = 462029802C7A680300EA021A /* as+adult.json */; };
+		4620298D2C7A680300EA021A /* as+adult.json in Resources */ = {isa = PBXBuildFile; fileRef = 462029802C7A680300EA021A /* as+adult.json */; };
+		4620298E2C7A680300EA021A /* as+extra.json in Resources */ = {isa = PBXBuildFile; fileRef = 462029812C7A680300EA021A /* as+extra.json */; };
+		4620298F2C7A680300EA021A /* as+extra.json in Resources */ = {isa = PBXBuildFile; fileRef = 462029812C7A680300EA021A /* as+extra.json */; };
+		462029902C7A680300EA021A /* as+extra.json in Resources */ = {isa = PBXBuildFile; fileRef = 462029812C7A680300EA021A /* as+extra.json */; };
+		462029912C7A680300EA021A /* as+privacy.json in Resources */ = {isa = PBXBuildFile; fileRef = 462029822C7A680300EA021A /* as+privacy.json */; };
+		462029922C7A680300EA021A /* as+privacy.json in Resources */ = {isa = PBXBuildFile; fileRef = 462029822C7A680300EA021A /* as+privacy.json */; };
+		462029932C7A680300EA021A /* as+privacy.json in Resources */ = {isa = PBXBuildFile; fileRef = 462029822C7A680300EA021A /* as+privacy.json */; };
+		462029942C7A680300EA021A /* as+safety.json in Resources */ = {isa = PBXBuildFile; fileRef = 462029832C7A680300EA021A /* as+safety.json */; };
+		462029952C7A680300EA021A /* as+safety.json in Resources */ = {isa = PBXBuildFile; fileRef = 462029832C7A680300EA021A /* as+safety.json */; };
+		462029962C7A680300EA021A /* as+safety.json in Resources */ = {isa = PBXBuildFile; fileRef = 462029832C7A680300EA021A /* as+safety.json */; };
+		462029972C7A680300EA021A /* as+social.json in Resources */ = {isa = PBXBuildFile; fileRef = 462029842C7A680300EA021A /* as+social.json */; };
+		462029982C7A680300EA021A /* as+social.json in Resources */ = {isa = PBXBuildFile; fileRef = 462029842C7A680300EA021A /* as+social.json */; };
+		462029992C7A680300EA021A /* as+social.json in Resources */ = {isa = PBXBuildFile; fileRef = 462029842C7A680300EA021A /* as+social.json */; };
+		4620299A2C7A680300EA021A /* as+twitch.json in Resources */ = {isa = PBXBuildFile; fileRef = 462029852C7A680300EA021A /* as+twitch.json */; };
+		4620299B2C7A680300EA021A /* as+twitch.json in Resources */ = {isa = PBXBuildFile; fileRef = 462029852C7A680300EA021A /* as+twitch.json */; };
+		4620299C2C7A680300EA021A /* as+twitch.json in Resources */ = {isa = PBXBuildFile; fileRef = 462029852C7A680300EA021A /* as+twitch.json */; };
+		4620299D2C7A680300EA021A /* as+youtube.json in Resources */ = {isa = PBXBuildFile; fileRef = 462029862C7A680300EA021A /* as+youtube.json */; };
+		4620299E2C7A680300EA021A /* as+youtube.json in Resources */ = {isa = PBXBuildFile; fileRef = 462029862C7A680300EA021A /* as+youtube.json */; };
+		4620299F2C7A680300EA021A /* as+youtube.json in Resources */ = {isa = PBXBuildFile; fileRef = 462029862C7A680300EA021A /* as+youtube.json */; };
 		46209BA62C79166A004FE6E1 /* VariableBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46209BA52C79166A004FE6E1 /* VariableBlur.swift */; };
-		46209BA92C791879004FE6E1 /* FAQInformationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46209BA72C791877004FE6E1 /* FAQInformationModel.swift */; };
-		46209BAA2C791879004FE6E1 /* FAQInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46209BA82C791879004FE6E1 /* FAQInformation.swift */; };
 		46209BAC2C791B66004FE6E1 /* InformationalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46209BAB2C791B66004FE6E1 /* InformationalButton.swift */; };
 		46209BAE2C792317004FE6E1 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46209BAD2C792317004FE6E1 /* CreditsView.swift */; };
 		46209BB02C792350004FE6E1 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 46209BAF2C792350004FE6E1 /* Localizable.xcstrings */; };
 		46209BB42C7936D0004FE6E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46209BB12C7935CB004FE6E1 /* InfoPlist.strings */; };
-		4661C72D2C799270004DF0A5 /* eo+blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = 46AE680F2C76CC4F00CF3E4B /* eo+blockerList.json */; };
 		4661C72E2C799296004DF0A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03346D3A26B08EA2004A268E /* Assets.xcassets */; };
 		4670300E2C798E9000A02F3C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46AE68AA2C76DA3400CF3E4B /* Cocoa.framework */; };
 		467030182C798E9000A02F3C /* Nad for macOS.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4670300D2C798E9000A02F3C /* Nad for macOS.appex */; platformFilters = (macos, ); settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4670301F2C798F0F00A02F3C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4670301D2C798F0F00A02F3C /* InfoPlist.strings */; };
 		467030202C798F5700A02F3C /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AB91F726BB20CE00C6DFFD /* ContentBlockerRequestHandler.swift */; };
-		46AE68802C76CC4F00CF3E4B /* eo+blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = 46AE680F2C76CC4F00CF3E4B /* eo+blockerList.json */; };
-		46AE68812C76CC4F00CF3E4B /* eo+blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = 46AE680F2C76CC4F00CF3E4B /* eo+blockerList.json */; };
 		46AE68BF2C78150C00CF3E4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03346D3A26B08EA2004A268E /* Assets.xcassets */; };
+		46CDC8AC2C81234F001AD89D /* VisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CDC8AB2C81234F001AD89D /* VisualEffectView.swift */; };
+		46CDC8AE2C813322001AD89D /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CDC8AD2C813322001AD89D /* SafariView.swift */; };
+		46CDC8B22C813472001AD89D /* Type Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CDC8B12C813472001AD89D /* Type Aliases.swift */; };
+		46CDC8B62C813EC9001AD89D /* PrivacyPolicyMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CDC8B52C813EC9001AD89D /* PrivacyPolicyMenuView.swift */; };
+		46CDC8B82C8142FA001AD89D /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CDC8B72C8142FA001AD89D /* UIConstants.swift */; };
+		46CDC8BA2C81D114001AD89D /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CDC8B92C81D114001AD89D /* Tools.swift */; };
+		46CDC8BD2C81DF0D001AD89D /* EnableCTAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CDC8BC2C81DF0D001AD89D /* EnableCTAView.swift */; };
+		46CDC8BF2C81DF59001AD89D /* NadLogoHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CDC8BE2C81DF59001AD89D /* NadLogoHeaderView.swift */; };
+		46CDC8C12C81E035001AD89D /* HeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CDC8C02C81E035001AD89D /* HeroView.swift */; };
+		46CDC8C32C81E0C8001AD89D /* InformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CDC8C22C81E0C8001AD89D /* InformationView.swift */; };
+		46CDC8CB2C81E24F001AD89D /* WebButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CDC8CA2C81E24E001AD89D /* WebButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,9 +103,15 @@
 		03AB91F726BB20CE00C6DFFD /* ContentBlockerRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlockerRequestHandler.swift; sourceTree = "<group>"; };
 		03AB922626BB254800C6DFFD /* NadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NadApp.swift; sourceTree = "<group>"; };
 		462029702C7A25AC00EA021A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4620297E2C7A680300EA021A /* eo+general.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "eo+general.json"; sourceTree = "<group>"; };
+		462029802C7A680300EA021A /* as+adult.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "as+adult.json"; sourceTree = "<group>"; };
+		462029812C7A680300EA021A /* as+extra.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "as+extra.json"; sourceTree = "<group>"; };
+		462029822C7A680300EA021A /* as+privacy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "as+privacy.json"; sourceTree = "<group>"; };
+		462029832C7A680300EA021A /* as+safety.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "as+safety.json"; sourceTree = "<group>"; };
+		462029842C7A680300EA021A /* as+social.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "as+social.json"; sourceTree = "<group>"; };
+		462029852C7A680300EA021A /* as+twitch.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "as+twitch.json"; sourceTree = "<group>"; };
+		462029862C7A680300EA021A /* as+youtube.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "as+youtube.json"; sourceTree = "<group>"; };
 		46209BA52C79166A004FE6E1 /* VariableBlur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariableBlur.swift; sourceTree = "<group>"; };
-		46209BA72C791877004FE6E1 /* FAQInformationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAQInformationModel.swift; sourceTree = "<group>"; };
-		46209BA82C791879004FE6E1 /* FAQInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAQInformation.swift; sourceTree = "<group>"; };
 		46209BAB2C791B66004FE6E1 /* InformationalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationalButton.swift; sourceTree = "<group>"; };
 		46209BAD2C792317004FE6E1 /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
 		46209BAF2C792350004FE6E1 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
@@ -87,8 +123,19 @@
 		467030142C798E9000A02F3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		467030152C798E9000A02F3C /* Nad_for_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Nad_for_macOS.entitlements; sourceTree = "<group>"; };
 		4670301E2C798F0F00A02F3C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		46AE680F2C76CC4F00CF3E4B /* eo+blockerList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "eo+blockerList.json"; sourceTree = "<group>"; };
 		46AE68AA2C76DA3400CF3E4B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		46CDC8AB2C81234F001AD89D /* VisualEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectView.swift; sourceTree = "<group>"; };
+		46CDC8AD2C813322001AD89D /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		46CDC8B12C813472001AD89D /* Type Aliases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Type Aliases.swift"; sourceTree = "<group>"; };
+		46CDC8B52C813EC9001AD89D /* PrivacyPolicyMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyMenuView.swift; sourceTree = "<group>"; };
+		46CDC8B72C8142FA001AD89D /* UIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
+		46CDC8B92C81D114001AD89D /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		46CDC8BC2C81DF0D001AD89D /* EnableCTAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnableCTAView.swift; sourceTree = "<group>"; };
+		46CDC8BE2C81DF59001AD89D /* NadLogoHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NadLogoHeaderView.swift; sourceTree = "<group>"; };
+		46CDC8C02C81E035001AD89D /* HeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroView.swift; sourceTree = "<group>"; };
+		46CDC8C22C81E0C8001AD89D /* InformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationView.swift; sourceTree = "<group>"; };
+		46CDC8CA2C81E24E001AD89D /* WebButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebButton.swift; path = App/Views/Components/WebButton.swift; sourceTree = SOURCE_ROOT; };
+		46CDC8CC2C81E288001AD89D /* Nad-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Nad-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +167,7 @@
 		03346D2D26B08EA1004A268E = {
 			isa = PBXGroup;
 			children = (
+				46CDC8CC2C81E288001AD89D /* Nad-Info.plist */,
 				467030072C79892500A02F3C /* LICENSE */,
 				462029702C7A25AC00EA021A /* README.md */,
 				467030082C79892600A02F3C /* Nad.entitlements */,
@@ -136,15 +184,10 @@
 		03346D3226B08EA1004A268E /* App */ = {
 			isa = PBXGroup;
 			children = (
-				03346D3A26B08EA2004A268E /* Assets.xcassets */,
+				46CDC8C42C81E17F001AD89D /* Logic */,
+				46CDC8C52C81E18D001AD89D /* Views */,
 				03AB922626BB254800C6DFFD /* NadApp.swift */,
-				0381081226CC50D9008A912C /* BlockerState.swift */,
-				036A5C6D26C44E1500A76915 /* MainScreen.swift */,
-				46209BA52C79166A004FE6E1 /* VariableBlur.swift */,
-				46209BA82C791879004FE6E1 /* FAQInformation.swift */,
-				46209BA72C791877004FE6E1 /* FAQInformationModel.swift */,
-				46209BAB2C791B66004FE6E1 /* InformationalButton.swift */,
-				46209BAD2C792317004FE6E1 /* CreditsView.swift */,
+				03346D3A26B08EA2004A268E /* Assets.xcassets */,
 				46209BAF2C792350004FE6E1 /* Localizable.xcstrings */,
 			);
 			path = App;
@@ -170,6 +213,28 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		4620297F2C7A680300EA021A /* EyedOut */ = {
+			isa = PBXGroup;
+			children = (
+				4620297E2C7A680300EA021A /* eo+general.json */,
+			);
+			path = EyedOut;
+			sourceTree = "<group>";
+		};
+		462029872C7A680300EA021A /* Aemi Studio */ = {
+			isa = PBXGroup;
+			children = (
+				462029802C7A680300EA021A /* as+adult.json */,
+				462029812C7A680300EA021A /* as+extra.json */,
+				462029822C7A680300EA021A /* as+privacy.json */,
+				462029832C7A680300EA021A /* as+safety.json */,
+				462029842C7A680300EA021A /* as+social.json */,
+				462029852C7A680300EA021A /* as+twitch.json */,
+				462029862C7A680300EA021A /* as+youtube.json */,
+			);
+			path = "Aemi Studio";
+			sourceTree = "<group>";
+		};
 		4670300F2C798E9000A02F3C /* Nad for macOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -178,14 +243,6 @@
 				467030152C798E9000A02F3C /* Nad_for_macOS.entitlements */,
 			);
 			path = "Nad for macOS";
-			sourceTree = "<group>";
-		};
-		46AE68102C76CC4F00CF3E4B /* EyedOut */ = {
-			isa = PBXGroup;
-			children = (
-				46AE680F2C76CC4F00CF3E4B /* eo+blockerList.json */,
-			);
-			path = EyedOut;
 			sourceTree = "<group>";
 		};
 		46AE68A92C76DA3400CF3E4B /* Frameworks */ = {
@@ -199,7 +256,8 @@
 		46AE68BB2C76DA7300CF3E4B /* Blocklists */ = {
 			isa = PBXGroup;
 			children = (
-				46AE68102C76CC4F00CF3E4B /* EyedOut */,
+				462029872C7A680300EA021A /* Aemi Studio */,
+				4620297F2C7A680300EA021A /* EyedOut */,
 			);
 			path = Blocklists;
 			sourceTree = "<group>";
@@ -210,6 +268,68 @@
 				03AB91F726BB20CE00C6DFFD /* ContentBlockerRequestHandler.swift */,
 			);
 			path = "Content Blocker";
+			sourceTree = "<group>";
+		};
+		46CDC8C42C81E17F001AD89D /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				0381081226CC50D9008A912C /* BlockerState.swift */,
+				46CDC8B92C81D114001AD89D /* Tools.swift */,
+				46CDC8B12C813472001AD89D /* Type Aliases.swift */,
+				46CDC8B72C8142FA001AD89D /* UIConstants.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		46CDC8C52C81E18D001AD89D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				46CDC8C72C81E1B8001AD89D /* Header */,
+				46CDC8C92C81E1F2001AD89D /* Information */,
+				46CDC8C62C81E1A7001AD89D /* Credits */,
+				46CDC8C82C81E1DF001AD89D /* Components */,
+				036A5C6D26C44E1500A76915 /* MainScreen.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		46CDC8C62C81E1A7001AD89D /* Credits */ = {
+			isa = PBXGroup;
+			children = (
+				46209BAD2C792317004FE6E1 /* CreditsView.swift */,
+				46CDC8B52C813EC9001AD89D /* PrivacyPolicyMenuView.swift */,
+			);
+			path = Credits;
+			sourceTree = "<group>";
+		};
+		46CDC8C72C81E1B8001AD89D /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				46CDC8C02C81E035001AD89D /* HeroView.swift */,
+				46CDC8BC2C81DF0D001AD89D /* EnableCTAView.swift */,
+				46CDC8BE2C81DF59001AD89D /* NadLogoHeaderView.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		46CDC8C82C81E1DF001AD89D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				46CDC8AD2C813322001AD89D /* SafariView.swift */,
+				46209BA52C79166A004FE6E1 /* VariableBlur.swift */,
+				46CDC8AB2C81234F001AD89D /* VisualEffectView.swift */,
+				46CDC8CA2C81E24E001AD89D /* WebButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		46CDC8C92C81E1F2001AD89D /* Information */ = {
+			isa = PBXGroup;
+			children = (
+				46CDC8C22C81E0C8001AD89D /* InformationView.swift */,
+				46209BAB2C791B66004FE6E1 /* InformationalButton.swift */,
+			);
+			path = Information;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,6 +343,7 @@
 				03346D4726B08EA2004A268E /* Frameworks */,
 				03346D4826B08EA2004A268E /* Resources */,
 				03346D9B26B08EA2004A268E /* Embed Foundation Extensions */,
+				46CDC8CE2C81E2B7001AD89D /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -315,8 +436,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				462029972C7A680300EA021A /* as+social.json in Resources */,
+				462029912C7A680300EA021A /* as+privacy.json in Resources */,
 				03346D8226B08EA2004A268E /* Assets.xcassets in Resources */,
-				46AE68802C76CC4F00CF3E4B /* eo+blockerList.json in Resources */,
+				462029942C7A680300EA021A /* as+safety.json in Resources */,
+				4620298E2C7A680300EA021A /* as+extra.json in Resources */,
+				4620299D2C7A680300EA021A /* as+youtube.json in Resources */,
+				462029882C7A680300EA021A /* eo+general.json in Resources */,
+				4620299A2C7A680300EA021A /* as+twitch.json in Resources */,
+				4620298B2C7A680300EA021A /* as+adult.json in Resources */,
 				46209BB02C792350004FE6E1 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,9 +453,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				462029982C7A680300EA021A /* as+social.json in Resources */,
+				462029922C7A680300EA021A /* as+privacy.json in Resources */,
 				46AE68BF2C78150C00CF3E4B /* Assets.xcassets in Resources */,
+				462029952C7A680300EA021A /* as+safety.json in Resources */,
+				4620298F2C7A680300EA021A /* as+extra.json in Resources */,
+				4620299E2C7A680300EA021A /* as+youtube.json in Resources */,
+				462029892C7A680300EA021A /* eo+general.json in Resources */,
+				4620299B2C7A680300EA021A /* as+twitch.json in Resources */,
+				4620298C2C7A680300EA021A /* as+adult.json in Resources */,
 				46209BB42C7936D0004FE6E1 /* InfoPlist.strings in Resources */,
-				46AE68812C76CC4F00CF3E4B /* eo+blockerList.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,13 +470,41 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4661C72D2C799270004DF0A5 /* eo+blockerList.json in Resources */,
+				462029992C7A680300EA021A /* as+social.json in Resources */,
+				462029932C7A680300EA021A /* as+privacy.json in Resources */,
 				4661C72E2C799296004DF0A5 /* Assets.xcassets in Resources */,
+				462029962C7A680300EA021A /* as+safety.json in Resources */,
+				462029902C7A680300EA021A /* as+extra.json in Resources */,
+				4620299F2C7A680300EA021A /* as+youtube.json in Resources */,
+				4620298A2C7A680300EA021A /* eo+general.json in Resources */,
+				4620299C2C7A680300EA021A /* as+twitch.json in Resources */,
+				4620298D2C7A680300EA021A /* as+adult.json in Resources */,
 				4670301F2C798F0F00A02F3C /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46CDC8CE2C81E2B7001AD89D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/homebrew/bin/swiftlint --fix --format && /opt/homebrew/bin/swiftlint\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		03346D4626B08EA2004A268E /* Sources */ = {
@@ -349,13 +512,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				46209BA62C79166A004FE6E1 /* VariableBlur.swift in Sources */,
-				46209BAA2C791879004FE6E1 /* FAQInformation.swift in Sources */,
+				46CDC8B22C813472001AD89D /* Type Aliases.swift in Sources */,
+				46CDC8BF2C81DF59001AD89D /* NadLogoHeaderView.swift in Sources */,
+				46CDC8B82C8142FA001AD89D /* UIConstants.swift in Sources */,
+				46CDC8CB2C81E24F001AD89D /* WebButton.swift in Sources */,
+				46CDC8B62C813EC9001AD89D /* PrivacyPolicyMenuView.swift in Sources */,
+				46CDC8C12C81E035001AD89D /* HeroView.swift in Sources */,
+				46CDC8AC2C81234F001AD89D /* VisualEffectView.swift in Sources */,
 				0381081326CC50D9008A912C /* BlockerState.swift in Sources */,
+				46CDC8BA2C81D114001AD89D /* Tools.swift in Sources */,
+				46CDC8AE2C813322001AD89D /* SafariView.swift in Sources */,
 				036A5C6E26C44E1500A76915 /* MainScreen.swift in Sources */,
 				46209BAC2C791B66004FE6E1 /* InformationalButton.swift in Sources */,
 				46209BAE2C792317004FE6E1 /* CreditsView.swift in Sources */,
+				46CDC8BD2C81DF0D001AD89D /* EnableCTAView.swift in Sources */,
+				46CDC8C32C81E0C8001AD89D /* InformationView.swift in Sources */,
 				03AB922726BB254800C6DFFD /* NadApp.swift in Sources */,
-				46209BA92C791879004FE6E1 /* FAQInformationModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,6 +735,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = studio.aemi.Nad.iOSBlocker;
 				PRODUCT_NAME = "Nad for iOS";
 				SDKROOT = iphoneos;
@@ -598,6 +771,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = studio.aemi.Nad.iOSBlocker;
 				PRODUCT_NAME = "Nad for iOS";
 				SDKROOT = iphoneos;
@@ -684,6 +858,7 @@
 				GCC_WARN_UNUSED_LABEL = YES;
 				GCC_WARN_UNUSED_PARAMETER = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Nad-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Nad;
 				INFOPLIST_KEY_CFBundleExecutable = Nad;
 				INFOPLIST_KEY_CFBundleName = Nad;
@@ -701,7 +876,7 @@
 				);
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 0.1;
+				MARKETING_VERSION = 0.3;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,
@@ -790,6 +965,7 @@
 				GCC_WARN_UNUSED_LABEL = YES;
 				GCC_WARN_UNUSED_PARAMETER = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Nad-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Nad;
 				INFOPLIST_KEY_CFBundleExecutable = Nad;
 				INFOPLIST_KEY_CFBundleName = Nad;
@@ -807,7 +983,7 @@
 				);
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 0.1;
+				MARKETING_VERSION = 0.3;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,
@@ -831,7 +1007,6 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_ENTITLEMENTS = "Nad for macOS/Nad_for_macOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NP94WB3P75;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
@@ -847,7 +1022,7 @@
 				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = studio.aemi.Nad.macOSBlocker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
@@ -864,7 +1039,6 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_ENTITLEMENTS = "Nad for macOS/Nad_for_macOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NP94WB3P75;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
@@ -880,7 +1054,7 @@
 				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = studio.aemi.Nad.macOSBlocker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
