@@ -15,6 +15,7 @@ struct NadApp: App {
                 .blurryBackground()
                 #endif
                 .environment(blockerState)
+            #if os(iOS)
                 .onChange(of: blockerState.isEnabled) { _, newValue in
                     if newValue {
                         Tools.setAlternateIconName("AppIcon2")
@@ -22,6 +23,7 @@ struct NadApp: App {
                         Tools.setAlternateIconName("AppIcon3")
                     }
                 }
+            #endif
         }
         #if os(macOS)
         .windowResizability(.contentSize)
