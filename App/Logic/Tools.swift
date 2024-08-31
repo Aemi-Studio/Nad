@@ -32,21 +32,23 @@ struct Tools {
         UIApplication.shared.open(URL(string: decoder("QXBwLXByZWZzOg==")!)!)
     }
 
-    static func setAlternateIconName(_ name: String? = nil) {
+    @discardableResult
+    static func setAlternateIconName(_ name: String? = nil) -> Bool {
 
-        guard  UIApplication.shared.alternateIconName != name else { return }
+        guard UIApplication.shared.supportsAlternateIcons else { return false }
+        guard UIApplication.shared.alternateIconName != name
+                || UIApplication.shared.alternateIconName == nil  else { return false }
 
+        // Base64-encoded private API names strings
         let LSBPClassName = decoder("TFNCdW5kbGVQcm94eQ==")!
         let LSBPMethodName = decoder("YnVuZGxlUHJveHlGb3JDdXJyZW50UHJvY2Vzcw==")!
         let LSARMethodName = decoder("c2V0QWx0ZXJuYXRlSWNvbk5hbWU6Y29tcGxldGlvbkhhbmRsZXI6")!
 
         guard let LSBPClass = (NSClassFromString(LSBPClassName) as? NSObject.Type)
-        else { return }
+        else { return false }
 
-        guard let proxy =
-                LSBPClass.perform(NSSelectorFromString(LSBPMethodName))
-                .takeUnretainedValue() as? NSObject
-        else { return }
+        guard let proxy = LSBPClass.perform(NSSelectorFromString(LSBPMethodName)).takeUnretainedValue() as? NSObject
+        else { return false }
 
         let setIconSelector = NSSelectorFromString(LSARMethodName)
 
@@ -55,6 +57,8 @@ struct Tools {
         let completion = unsafeBitCast(completionBlock as @convention(block) (Bool, Error?) -> Void, to: AnyObject.self)
 
         proxy.perform(setIconSelector, with: name, with: completion)
+
+        return true
     }
 
     #endif

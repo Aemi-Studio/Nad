@@ -16,13 +16,13 @@ struct NadApp: App {
                 #endif
                 .environment(blockerState)
             #if os(iOS)
-                .onChange(of: blockerState.isEnabled) { _, newValue in
-                    if newValue {
-                        Tools.setAlternateIconName("AppIcon2")
-                    } else {
-                        Tools.setAlternateIconName("AppIcon3")
-                    }
-                }
+            .onChange(of: blockerState.isEnabled) { _, newValue in
+            if newValue {
+            Tools.setAlternateIconName("AppIcon2")
+            } else {
+            Tools.setAlternateIconName("AppIcon3")
+            }
+            }
             #endif
         }
         #if os(macOS)
