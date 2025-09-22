@@ -18,13 +18,21 @@ struct CreditsView: View {
             collabText
 
             PrivacyPolicyMenuView()
-                .padding(.bottom, 32 + bottomSafeAreaInset)
+                .padding(.bottom, bottomPadding)
         }
         .onGeometryChange(
             for: CGFloat.self,
             of: { $0.safeAreaInsets.bottom },
             action: { if $0 != bottomSafeAreaInset { bottomSafeAreaInset = $0 } }
         )
+    }
+
+    private var bottomPadding: CGFloat {
+        #if os(iOS)
+            32 + bottomSafeAreaInset
+        #else
+            16 + bottomSafeAreaInset
+        #endif
     }
 
     private var collabBrands: some View {

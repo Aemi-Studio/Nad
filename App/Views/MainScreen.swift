@@ -143,7 +143,7 @@ private extension View {
                 startPoint: .bottom,
                 endPoint: .top
             )
-            .frame(height: 48)
+            .frame(height: 16)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .ignoresSafeArea()
