@@ -26,11 +26,11 @@ struct WebButton: View {
         Button {
             if openDefault {
                 if let url = URL(string: url) {
-#if os(iOS)
-                    UIApplication.shared.open(url)
-#elseif os(macOS)
-                    NSWorkspace.shared.open(url)
-#endif
+                    #if os(iOS)
+                        UIApplication.shared.open(url)
+                    #elseif os(macOS)
+                        NSWorkspace.shared.open(url)
+                    #endif
                 }
             } else {
                 isModalPresentedWebView.toggle()
@@ -59,11 +59,11 @@ struct WebButton: View {
         .contextMenu {
             Button("Open in your default browser", systemImage: "arrow.up.forward.square") {
                 if let url = URL(string: url) {
-#if os(iOS)
-                    UIApplication.shared.open(url)
-#elseif os(macOS)
-                    NSWorkspace.shared.open(url)
-#endif
+                    #if os(iOS)
+                        UIApplication.shared.open(url)
+                    #elseif os(macOS)
+                        NSWorkspace.shared.open(url)
+                    #endif
                 }
             }
         }
@@ -71,7 +71,7 @@ struct WebButton: View {
             webView
         }
     }
-    
+
     @ViewBuilder private var webView: some View {
         if let url = URL(string: url) {
             WebView(url: url)

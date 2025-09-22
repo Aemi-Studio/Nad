@@ -4,10 +4,10 @@ import SwiftUI
 struct MainScreen: View {
     @Environment(\.colorScheme) private var colorScheme
     @Environment(BlockerState.self) private var blockerState
-    
+
     @State private var logoHeight = Self.initialViewHeight
     @State private var scrollOffset = 0.0
-    
+
     var body: some View {
         NavigationStack {
             ZStack(alignment: .top) {
@@ -25,11 +25,11 @@ struct MainScreen: View {
 
 private extension MainScreen {
     static var initialViewHeight: CGFloat {
-#if os(iOS)
-        UIScreen.activeScreen?.bounds.height ?? 0.0
-#elseif os(macOS)
-        NSApplication.shared.windows.first?.frame.height ?? 0.0
-#endif
+        #if os(iOS)
+            UIScreen.activeScreen?.bounds.height ?? 0.0
+        #elseif os(macOS)
+            NSApplication.shared.windows.first?.frame.height ?? 0.0
+        #endif
     }
 }
 
@@ -37,19 +37,19 @@ private extension MainScreen {
     var isEnabled: Bool {
         blockerState.state.boolean
     }
-    
+
     var stateColor: Color {
         blockerState.state.color
     }
-    
+
     var nadColor: Color {
         colorScheme == .dark ? .background : stateColor
     }
-    
+
     var shadowColor: Color {
         colorScheme == .dark ? stateColor : stateColor.opacity(0.5)
     }
-    
+
     private var logoHeader: some View {
         NadLogoHeaderView(
             mainColor: nadColor,
@@ -64,11 +64,11 @@ private extension MainScreen {
         .blur(radius: blurRadius)
         .scaleEffect(scaleFactor, anchor: .top)
     }
-    
+
     private var blurRadius: CGFloat {
         min(abs(min(scrollOffset, 0)) / 10, 64)
     }
-    
+
     private var scaleFactor: CGFloat {
         1 + (min(max(scrollOffset, 0) / 10, 61.8) / 100)
     }
@@ -80,11 +80,11 @@ private extension MainScreen {
             VStack(spacing: 32) {
                 HeroView()
                     .padding(.top, 64)
-                
+
                 InformationView()
-                
+
                 divider
-                
+
                 CreditsView()
             }
             .padding(.top, logoHeight)
@@ -99,7 +99,7 @@ private extension MainScreen {
         .coordinateSpace(name: "ScrollView")
         .frame(maxWidth: 600)
     }
-    
+
     private var divider: some View {
         Divider()
             .frame(width: 64)
@@ -123,12 +123,12 @@ private extension View {
                     }
                 }
         #else
-        mask {
-            maskContent
-        }
+            mask {
+                maskContent
+            }
         #endif
     }
-    
+
     private var maskContent: some View {
         VStack(spacing: 0) {
             LinearGradient(
@@ -154,4 +154,3 @@ private extension View {
     MainScreen()
         .environment(BlockerState())
 }
-

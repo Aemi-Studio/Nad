@@ -34,8 +34,6 @@ struct InformationView: View {
     }
 }
 
-
-
 extension View {
     func track(height: Binding<CGFloat>) -> some View {
         onGeometryChange(

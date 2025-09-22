@@ -65,52 +65,52 @@ final class BlockerState: Animatable {
             }
         }
     }
-    
+
     enum State: Equatable, Sendable, CustomStringConvertible {
         case enabled
         case disabled
         case unknown
         case error(Error)
-        
+
         var boolean: Bool {
             self == .enabled
         }
-        
+
         var description: String {
             switch self {
-                case .enabled:
-                    String(localized: "blockerState.enabled")
-                case .disabled:
-                    String(localized: "blockerState.disabled")
-                case .unknown:
-                    String(localized: "blockerState.unknown")
-                case .error:
-                    String(localized: "blockerState.error")
+            case .enabled:
+                String(localized: "blockerState.enabled")
+            case .disabled:
+                String(localized: "blockerState.disabled")
+            case .unknown:
+                String(localized: "blockerState.unknown")
+            case .error:
+                String(localized: "blockerState.error")
             }
         }
-        
+
         var color: Color {
             switch self {
-                case .enabled:
-                    .green
-                case .disabled:
-                    .red
-                case .unknown:
-                    .gray
-                case .error:
-                    .orange
+            case .enabled:
+                .green
+            case .disabled:
+                .red
+            case .unknown:
+                .gray
+            case .error:
+                .orange
             }
         }
-        
+
         static func == (lhs: Self, rhs: Self) -> Bool {
             switch (lhs, rhs) {
-                case (.enabled, .enabled), (.disabled, .disabled), (.unknown, .unknown):
-                    true
-                case (.error(let lError), .error(let rError)):
-                    (lError as NSError).domain == (rError as NSError).domain
-                        && (lError as NSError).code == (rError as NSError).code
-                default:
-                    false
+            case (.enabled, .enabled), (.disabled, .disabled), (.unknown, .unknown):
+                true
+            case let (.error(lError), .error(rError)):
+                (lError as NSError).domain == (rError as NSError).domain
+                    && (lError as NSError).code == (rError as NSError).code
+            default:
+                false
             }
         }
     }

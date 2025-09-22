@@ -10,7 +10,7 @@ import SwiftUI
 
 struct EnableCTAView: View {
     let color: Color
-    
+
     var body: some View {
         Button(action: openSettings) {
             VStack(spacing: 8) {
@@ -77,9 +77,9 @@ struct EnableCTAView: View {
 
 private struct CallToActionButtonStyle: ButtonStyle {
     @Environment(\.colorScheme) private var colorScheme
-    
+
     let color: Color
-    
+
     func makeBody(configuration: Configuration) -> some View {
         glassStyle {
             configuration.label

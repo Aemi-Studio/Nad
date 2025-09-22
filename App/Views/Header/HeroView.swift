@@ -11,7 +11,7 @@ import SwiftUI
 struct HeroView: View {
     @Environment(\.colorScheme) private var colorScheme
     @Environment(BlockerState.self) private var blockerState
-    
+
     var body: some View {
         VStack(spacing: 32) {
             VStack(spacing: 16) {
@@ -24,20 +24,20 @@ struct HeroView: View {
         }
         .frame(maxWidth: .infinity)
     }
-    
+
     private var appTitle: some View {
         Text("nad")
             .font(.largeTitle)
             .fontWidth(.expanded)
             .fontWeight(.black)
     }
-    
+
     private var showCTA: Bool {
         switch blockerState.state {
-            case .disabled, .error, .unknown:
-                true
-            default:
-                false
+        case .disabled, .error, .unknown:
+            true
+        default:
+            false
         }
     }
 }
@@ -59,16 +59,16 @@ private extension HeroView {
             .padding(.horizontal, 14)
         }
     }
-    
+
     @ViewBuilder private var stateTextView: some View {
         switch blockerState.state {
-            case .unknown:
-                ProgressView().progressViewStyle(.circular).tint(.white)
-            default:
-                Text(blockerState.state.description)
+        case .unknown:
+            ProgressView().progressViewStyle(.circular).tint(.white)
+        default:
+            Text(blockerState.state.description)
         }
     }
-    
+
     @ViewBuilder private func badgeEffect(@ViewBuilder content: @escaping () -> some View) -> some View {
         Group {
             if #available(iOS 26.0, macOS 26.0, *) {
@@ -89,11 +89,11 @@ private extension HeroView {
     private var isEnabled: Bool {
         blockerState.state.boolean
     }
-    
+
     private var stateColor: Color {
         blockerState.state.color
     }
-    
+
     private var shadowColor: Color {
         colorScheme == .dark ? stateColor : stateColor.opacity(0.5)
     }

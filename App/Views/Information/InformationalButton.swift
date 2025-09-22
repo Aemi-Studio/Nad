@@ -12,7 +12,7 @@ struct InformationalButton: View {
     private(set) var content: String
 
     @State private var showMore: Bool = false
-    
+
     private var buttonHeadlineStyle: some ShapeStyle {
         if showMore {
             AnyShapeStyle(Color.primary.tertiary)
@@ -20,7 +20,7 @@ struct InformationalButton: View {
             AnyShapeStyle(Color.primary)
         }
     }
-    
+
     private var buttonHeadline: some View {
         Text(title)
             .multilineTextAlignment(.leading)
@@ -28,7 +28,7 @@ struct InformationalButton: View {
             .fontWeight(.semibold)
             .foregroundStyle(buttonHeadlineStyle)
     }
-    
+
     private var buttonIcon: some View {
         Image(systemName: "circle")
             .foregroundStyle(.clear)
@@ -56,7 +56,7 @@ struct InformationalButton: View {
         .font(.title3)
         .fontDesign(.rounded)
     }
-    
+
     private var buttonDisclosableContent: some View {
         Group {
             if showMore {
@@ -76,7 +76,7 @@ struct InformationalButton: View {
         .transition(.opacity.combined(with: .blurReplace).combined(with: .symbolEffect))
         .id("buttonDisclosableContent-\(showMore)")
     }
-    
+
     var body: some View {
         Button {
             withAnimation(.smooth) {

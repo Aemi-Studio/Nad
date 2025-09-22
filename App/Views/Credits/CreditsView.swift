@@ -11,12 +11,12 @@ struct CreditsView: View {
     @Environment(\.colorScheme) private var colorScheme
 
     @State private var bottomSafeAreaInset = CGFloat.zero
-    
+
     var body: some View {
         VStack(spacing: 0) {
             collabBrands
             collabText
-            
+
             PrivacyPolicyMenuView()
                 .padding(.bottom, 32 + bottomSafeAreaInset)
         }
@@ -26,7 +26,7 @@ struct CreditsView: View {
             action: { if $0 != bottomSafeAreaInset { bottomSafeAreaInset = $0 } }
         )
     }
-    
+
     private var collabBrands: some View {
         Image("brands")
             .resizable()
@@ -34,7 +34,7 @@ struct CreditsView: View {
             .foregroundStyle(Color.secondary)
             .scaleEffect(0.9)
     }
-    
+
     private var collabText: some View {
         Text(String(localized: "collab"))
             .multilineTextAlignment(.center)

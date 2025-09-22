@@ -1,5 +1,5 @@
 //
-//  Untitled.swift
+//  Loggable.swift
 //  Nad
 //
 //  Created by Guillaume Coquard on 22.09.25.
@@ -16,7 +16,7 @@ extension Loggable {
             category: String(describing: Self.self)
         )
     }
-    
+
     var logger: Logger {
         Self.logger
     }
