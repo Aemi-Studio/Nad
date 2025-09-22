@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 90;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,40 +16,22 @@
 		462029882C7A680300EA021A /* eo+general.json in Resources */ = {isa = PBXBuildFile; fileRef = 4620297E2C7A680300EA021A /* eo+general.json */; };
 		462029892C7A680300EA021A /* eo+general.json in Resources */ = {isa = PBXBuildFile; fileRef = 4620297E2C7A680300EA021A /* eo+general.json */; };
 		4620298A2C7A680300EA021A /* eo+general.json in Resources */ = {isa = PBXBuildFile; fileRef = 4620297E2C7A680300EA021A /* eo+general.json */; };
-		4620298B2C7A680300EA021A /* as+adult.json in Resources */ = {isa = PBXBuildFile; fileRef = 462029802C7A680300EA021A /* as+adult.json */; };
-		4620298C2C7A680300EA021A /* as+adult.json in Resources */ = {isa = PBXBuildFile; fileRef = 462029802C7A680300EA021A /* as+adult.json */; };
-		4620298D2C7A680300EA021A /* as+adult.json in Resources */ = {isa = PBXBuildFile; fileRef = 462029802C7A680300EA021A /* as+adult.json */; };
-		4620298E2C7A680300EA021A /* as+extra.json in Resources */ = {isa = PBXBuildFile; fileRef = 462029812C7A680300EA021A /* as+extra.json */; };
-		4620298F2C7A680300EA021A /* as+extra.json in Resources */ = {isa = PBXBuildFile; fileRef = 462029812C7A680300EA021A /* as+extra.json */; };
-		462029902C7A680300EA021A /* as+extra.json in Resources */ = {isa = PBXBuildFile; fileRef = 462029812C7A680300EA021A /* as+extra.json */; };
-		462029912C7A680300EA021A /* as+privacy.json in Resources */ = {isa = PBXBuildFile; fileRef = 462029822C7A680300EA021A /* as+privacy.json */; };
-		462029922C7A680300EA021A /* as+privacy.json in Resources */ = {isa = PBXBuildFile; fileRef = 462029822C7A680300EA021A /* as+privacy.json */; };
-		462029932C7A680300EA021A /* as+privacy.json in Resources */ = {isa = PBXBuildFile; fileRef = 462029822C7A680300EA021A /* as+privacy.json */; };
-		462029942C7A680300EA021A /* as+safety.json in Resources */ = {isa = PBXBuildFile; fileRef = 462029832C7A680300EA021A /* as+safety.json */; };
-		462029952C7A680300EA021A /* as+safety.json in Resources */ = {isa = PBXBuildFile; fileRef = 462029832C7A680300EA021A /* as+safety.json */; };
-		462029962C7A680300EA021A /* as+safety.json in Resources */ = {isa = PBXBuildFile; fileRef = 462029832C7A680300EA021A /* as+safety.json */; };
-		462029972C7A680300EA021A /* as+social.json in Resources */ = {isa = PBXBuildFile; fileRef = 462029842C7A680300EA021A /* as+social.json */; };
-		462029982C7A680300EA021A /* as+social.json in Resources */ = {isa = PBXBuildFile; fileRef = 462029842C7A680300EA021A /* as+social.json */; };
-		462029992C7A680300EA021A /* as+social.json in Resources */ = {isa = PBXBuildFile; fileRef = 462029842C7A680300EA021A /* as+social.json */; };
-		4620299A2C7A680300EA021A /* as+twitch.json in Resources */ = {isa = PBXBuildFile; fileRef = 462029852C7A680300EA021A /* as+twitch.json */; };
-		4620299B2C7A680300EA021A /* as+twitch.json in Resources */ = {isa = PBXBuildFile; fileRef = 462029852C7A680300EA021A /* as+twitch.json */; };
-		4620299C2C7A680300EA021A /* as+twitch.json in Resources */ = {isa = PBXBuildFile; fileRef = 462029852C7A680300EA021A /* as+twitch.json */; };
-		4620299D2C7A680300EA021A /* as+youtube.json in Resources */ = {isa = PBXBuildFile; fileRef = 462029862C7A680300EA021A /* as+youtube.json */; };
-		4620299E2C7A680300EA021A /* as+youtube.json in Resources */ = {isa = PBXBuildFile; fileRef = 462029862C7A680300EA021A /* as+youtube.json */; };
-		4620299F2C7A680300EA021A /* as+youtube.json in Resources */ = {isa = PBXBuildFile; fileRef = 462029862C7A680300EA021A /* as+youtube.json */; };
-		46209BA62C79166A004FE6E1 /* VariableBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46209BA52C79166A004FE6E1 /* VariableBlur.swift */; };
 		46209BAC2C791B66004FE6E1 /* InformationalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46209BAB2C791B66004FE6E1 /* InformationalButton.swift */; };
 		46209BAE2C792317004FE6E1 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46209BAD2C792317004FE6E1 /* CreditsView.swift */; };
 		46209BB02C792350004FE6E1 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 46209BAF2C792350004FE6E1 /* Localizable.xcstrings */; };
 		46209BB42C7936D0004FE6E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46209BB12C7935CB004FE6E1 /* InfoPlist.strings */; };
+		463CFD1B2E80933A0082389A /* RetroGlass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463CFD1A2E80933A0082389A /* RetroGlass.swift */; };
+		463CFD1D2E80B0310082389A /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463CFD1C2E80B0300082389A /* SafariView.swift */; };
+		463CFD212E80BEC60082389A /* Loggable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463CFD202E80BEC20082389A /* Loggable.swift */; };
+		463CFD232E80C9360082389A /* InformationButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463CFD222E80C9360082389A /* InformationButtonStyle.swift */; };
 		4661C72E2C799296004DF0A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03346D3A26B08EA2004A268E /* Assets.xcassets */; };
 		4670300E2C798E9000A02F3C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46AE68AA2C76DA3400CF3E4B /* Cocoa.framework */; };
 		467030182C798E9000A02F3C /* Nad for macOS.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4670300D2C798E9000A02F3C /* Nad for macOS.appex */; platformFilters = (macos, ); settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4670301F2C798F0F00A02F3C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4670301D2C798F0F00A02F3C /* InfoPlist.strings */; };
 		467030202C798F5700A02F3C /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AB91F726BB20CE00C6DFFD /* ContentBlockerRequestHandler.swift */; };
+		467F33772E8057A8002F7037 /* AemiSDR in Frameworks */ = {isa = PBXBuildFile; productRef = 467F33762E8057A8002F7037 /* AemiSDR */; };
 		46AE68BF2C78150C00CF3E4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03346D3A26B08EA2004A268E /* Assets.xcassets */; };
 		46CDC8AC2C81234F001AD89D /* VisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CDC8AB2C81234F001AD89D /* VisualEffectView.swift */; };
-		46CDC8AE2C813322001AD89D /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CDC8AD2C813322001AD89D /* SafariView.swift */; };
 		46CDC8B22C813472001AD89D /* Type Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CDC8B12C813472001AD89D /* Type Aliases.swift */; };
 		46CDC8B62C813EC9001AD89D /* PrivacyPolicyMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CDC8B52C813EC9001AD89D /* PrivacyPolicyMenuView.swift */; };
 		46CDC8B82C8142FA001AD89D /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CDC8B72C8142FA001AD89D /* UIConstants.swift */; };
@@ -81,15 +63,13 @@
 /* Begin PBXCopyFilesBuildPhase section */
 		03346D9B26B08EA2004A268E /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
 			dstPath = "";
-			dstSubfolderSpec = 13;
+			dstSubfolder = PlugIns;
 			files = (
 				467030182C798E9000A02F3C /* Nad for macOS.appex in Embed Foundation Extensions */,
 				03346D6926B08EA2004A268E /* Nad for iOS.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -104,18 +84,14 @@
 		03AB922626BB254800C6DFFD /* NadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NadApp.swift; sourceTree = "<group>"; };
 		462029702C7A25AC00EA021A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4620297E2C7A680300EA021A /* eo+general.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "eo+general.json"; sourceTree = "<group>"; };
-		462029802C7A680300EA021A /* as+adult.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "as+adult.json"; sourceTree = "<group>"; };
-		462029812C7A680300EA021A /* as+extra.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "as+extra.json"; sourceTree = "<group>"; };
-		462029822C7A680300EA021A /* as+privacy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "as+privacy.json"; sourceTree = "<group>"; };
-		462029832C7A680300EA021A /* as+safety.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "as+safety.json"; sourceTree = "<group>"; };
-		462029842C7A680300EA021A /* as+social.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "as+social.json"; sourceTree = "<group>"; };
-		462029852C7A680300EA021A /* as+twitch.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "as+twitch.json"; sourceTree = "<group>"; };
-		462029862C7A680300EA021A /* as+youtube.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "as+youtube.json"; sourceTree = "<group>"; };
-		46209BA52C79166A004FE6E1 /* VariableBlur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariableBlur.swift; sourceTree = "<group>"; };
 		46209BAB2C791B66004FE6E1 /* InformationalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationalButton.swift; sourceTree = "<group>"; };
 		46209BAD2C792317004FE6E1 /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
 		46209BAF2C792350004FE6E1 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		46209BB22C7935CB004FE6E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		463CFD1A2E80933A0082389A /* RetroGlass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetroGlass.swift; sourceTree = "<group>"; };
+		463CFD1C2E80B0300082389A /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		463CFD202E80BEC20082389A /* Loggable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loggable.swift; sourceTree = "<group>"; };
+		463CFD222E80C9360082389A /* InformationButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationButtonStyle.swift; sourceTree = "<group>"; };
 		467030062C79892500A02F3C /* Nad for iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Nad for iOS.entitlements"; sourceTree = "<group>"; };
 		467030072C79892500A02F3C /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		467030082C79892600A02F3C /* Nad.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Nad.entitlements; sourceTree = "<group>"; };
@@ -125,7 +101,6 @@
 		4670301E2C798F0F00A02F3C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		46AE68AA2C76DA3400CF3E4B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		46CDC8AB2C81234F001AD89D /* VisualEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectView.swift; sourceTree = "<group>"; };
-		46CDC8AD2C813322001AD89D /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		46CDC8B12C813472001AD89D /* Type Aliases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Type Aliases.swift"; sourceTree = "<group>"; };
 		46CDC8B52C813EC9001AD89D /* PrivacyPolicyMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyMenuView.swift; sourceTree = "<group>"; };
 		46CDC8B72C8142FA001AD89D /* UIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
@@ -141,25 +116,20 @@
 /* Begin PBXFrameworksBuildPhase section */
 		03346D4726B08EA2004A268E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
+				467F33772E8057A8002F7037 /* AemiSDR in Frameworks */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		03346D6526B08EA2004A268E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		4670300A2C798E9000A02F3C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				4670300E2C798E9000A02F3C /* Cocoa.framework in Frameworks */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
@@ -224,13 +194,6 @@
 		462029872C7A680300EA021A /* Aemi Studio */ = {
 			isa = PBXGroup;
 			children = (
-				462029802C7A680300EA021A /* as+adult.json */,
-				462029812C7A680300EA021A /* as+extra.json */,
-				462029822C7A680300EA021A /* as+privacy.json */,
-				462029832C7A680300EA021A /* as+safety.json */,
-				462029842C7A680300EA021A /* as+social.json */,
-				462029852C7A680300EA021A /* as+twitch.json */,
-				462029862C7A680300EA021A /* as+youtube.json */,
 			);
 			path = "Aemi Studio";
 			sourceTree = "<group>";
@@ -273,6 +236,7 @@
 		46CDC8C42C81E17F001AD89D /* Logic */ = {
 			isa = PBXGroup;
 			children = (
+				463CFD202E80BEC20082389A /* Loggable.swift */,
 				0381081226CC50D9008A912C /* BlockerState.swift */,
 				46CDC8B92C81D114001AD89D /* Tools.swift */,
 				46CDC8B12C813472001AD89D /* Type Aliases.swift */,
@@ -315,9 +279,9 @@
 		46CDC8C82C81E1DF001AD89D /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				46CDC8AD2C813322001AD89D /* SafariView.swift */,
-				46209BA52C79166A004FE6E1 /* VariableBlur.swift */,
+				463CFD1A2E80933A0082389A /* RetroGlass.swift */,
 				46CDC8AB2C81234F001AD89D /* VisualEffectView.swift */,
+				463CFD1C2E80B0300082389A /* SafariView.swift */,
 				46CDC8CA2C81E24E001AD89D /* WebButton.swift */,
 			);
 			path = Components;
@@ -326,6 +290,7 @@
 		46CDC8C92C81E1F2001AD89D /* Information */ = {
 			isa = PBXGroup;
 			children = (
+				463CFD222E80C9360082389A /* InformationButtonStyle.swift */,
 				46CDC8C22C81E0C8001AD89D /* InformationView.swift */,
 				46209BAB2C791B66004FE6E1 /* InformationalButton.swift */,
 			);
@@ -366,8 +331,6 @@
 			);
 			buildRules = (
 			);
-			dependencies = (
-			);
 			name = "Nad for iOS";
 			productName = "Ka-Block Extension (iOS)";
 			productReference = 03346D6826B08EA2004A268E /* Nad for iOS.appex */;
@@ -383,8 +346,6 @@
 			);
 			buildRules = (
 			);
-			dependencies = (
-			);
 			name = "Nad for macOS";
 			productName = "Nad for macOS";
 			productReference = 4670300D2C798E9000A02F3C /* Nad for macOS.appex */;
@@ -398,7 +359,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
-				LastUpgradeCheck = 1540;
+				LastUpgradeCheck = 2600;
 				TargetAttributes = {
 					03346D4926B08EA2004A268E = {
 						CreatedOnToolsVersion = 13.0;
@@ -412,7 +373,6 @@
 				};
 			};
 			buildConfigurationList = 03346D3126B08EA1004A268E /* Build configuration list for PBXProject "Nad" */;
-			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -420,6 +380,11 @@
 				Base,
 			);
 			mainGroup = 03346D2D26B08EA1004A268E;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				467F33752E8057A8002F7037 /* XCLocalSwiftPackageReference "../AemiSDR/AemiSDR" */,
+			);
+			preferredProjectObjectVersion = 90;
 			productRefGroup = 03346D4B26B08EA2004A268E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -434,54 +399,27 @@
 /* Begin PBXResourcesBuildPhase section */
 		03346D4826B08EA2004A268E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
-				462029972C7A680300EA021A /* as+social.json in Resources */,
-				462029912C7A680300EA021A /* as+privacy.json in Resources */,
 				03346D8226B08EA2004A268E /* Assets.xcassets in Resources */,
-				462029942C7A680300EA021A /* as+safety.json in Resources */,
-				4620298E2C7A680300EA021A /* as+extra.json in Resources */,
-				4620299D2C7A680300EA021A /* as+youtube.json in Resources */,
 				462029882C7A680300EA021A /* eo+general.json in Resources */,
-				4620299A2C7A680300EA021A /* as+twitch.json in Resources */,
-				4620298B2C7A680300EA021A /* as+adult.json in Resources */,
 				46209BB02C792350004FE6E1 /* Localizable.xcstrings in Resources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		03346D6626B08EA2004A268E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
-				462029982C7A680300EA021A /* as+social.json in Resources */,
-				462029922C7A680300EA021A /* as+privacy.json in Resources */,
 				46AE68BF2C78150C00CF3E4B /* Assets.xcassets in Resources */,
-				462029952C7A680300EA021A /* as+safety.json in Resources */,
-				4620298F2C7A680300EA021A /* as+extra.json in Resources */,
-				4620299E2C7A680300EA021A /* as+youtube.json in Resources */,
 				462029892C7A680300EA021A /* eo+general.json in Resources */,
-				4620299B2C7A680300EA021A /* as+twitch.json in Resources */,
-				4620298C2C7A680300EA021A /* as+adult.json in Resources */,
 				46209BB42C7936D0004FE6E1 /* InfoPlist.strings in Resources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		4670300B2C798E9000A02F3C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
-				462029992C7A680300EA021A /* as+social.json in Resources */,
-				462029932C7A680300EA021A /* as+privacy.json in Resources */,
 				4661C72E2C799296004DF0A5 /* Assets.xcassets in Resources */,
-				462029962C7A680300EA021A /* as+safety.json in Resources */,
-				462029902C7A680300EA021A /* as+extra.json in Resources */,
-				4620299F2C7A680300EA021A /* as+youtube.json in Resources */,
 				4620298A2C7A680300EA021A /* eo+general.json in Resources */,
-				4620299C2C7A680300EA021A /* as+twitch.json in Resources */,
-				4620298D2C7A680300EA021A /* as+adult.json in Resources */,
 				4670301F2C798F0F00A02F3C /* InfoPlist.strings in Resources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
@@ -489,29 +427,19 @@
 		46CDC8CE2C81E2B7001AD89D /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
-			shellScript = "/opt/homebrew/bin/swiftlint --fix --format && /opt/homebrew/bin/swiftlint\n";
+			shellScript = (
+				"/opt/homebrew/bin/swiftlint --fix --format && /opt/homebrew/bin/swiftlint",
+				"",
+			);
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		03346D4626B08EA2004A268E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
-				46209BA62C79166A004FE6E1 /* VariableBlur.swift in Sources */,
 				46CDC8B22C813472001AD89D /* Type Aliases.swift in Sources */,
 				46CDC8BF2C81DF59001AD89D /* NadLogoHeaderView.swift in Sources */,
 				46CDC8B82C8142FA001AD89D /* UIConstants.swift in Sources */,
@@ -520,32 +448,30 @@
 				46CDC8C12C81E035001AD89D /* HeroView.swift in Sources */,
 				46CDC8AC2C81234F001AD89D /* VisualEffectView.swift in Sources */,
 				0381081326CC50D9008A912C /* BlockerState.swift in Sources */,
+				463CFD232E80C9360082389A /* InformationButtonStyle.swift in Sources */,
 				46CDC8BA2C81D114001AD89D /* Tools.swift in Sources */,
-				46CDC8AE2C813322001AD89D /* SafariView.swift in Sources */,
 				036A5C6E26C44E1500A76915 /* MainScreen.swift in Sources */,
 				46209BAC2C791B66004FE6E1 /* InformationalButton.swift in Sources */,
 				46209BAE2C792317004FE6E1 /* CreditsView.swift in Sources */,
+				463CFD212E80BEC60082389A /* Loggable.swift in Sources */,
+				463CFD1D2E80B0310082389A /* SafariView.swift in Sources */,
 				46CDC8BD2C81DF0D001AD89D /* EnableCTAView.swift in Sources */,
 				46CDC8C32C81E0C8001AD89D /* InformationView.swift in Sources */,
 				03AB922726BB254800C6DFFD /* NadApp.swift in Sources */,
+				463CFD1B2E80933A0082389A /* RetroGlass.swift in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		03346D6426B08EA2004A268E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				03AB920126BB211E00C6DFFD /* ContentBlockerRequestHandler.swift in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		467030092C798E9000A02F3C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				467030202C798F5700A02F3C /* ContentBlockerRequestHandler.swift in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
@@ -586,7 +512,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		03346D9626B08EA2004A268E /* Debug */ = {
+		03346D9626B08EA2004A268E /* Debug configuration for PBXProject "Nad" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -624,6 +550,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = NP94WB3P75;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -648,12 +575,14 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
 			};
 			name = Debug;
 		};
-		03346D9726B08EA2004A268E /* Release */ = {
+		03346D9726B08EA2004A268E /* Release configuration for PBXProject "Nad" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -691,6 +620,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = NP94WB3P75;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -708,24 +638,30 @@
 				MARKETING_VERSION = 0.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
 			};
 			name = Release;
 		};
-		03346D9926B08EA2004A268E /* Debug */ = {
+		03346D9926B08EA2004A268E /* Debug configuration for PBXNativeTarget "Nad for iOS" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				AUTOMATION_APPLE_EVENTS = YES;
 				CODE_SIGN_ENTITLEMENTS = "Nad for iOS/Nad for iOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NP94WB3P75;
+				CURRENT_PROJECT_VERSION = 1.1;
+				ENABLE_APP_SANDBOX = YES;
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Nad for iOS/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Nad;
 				INFOPLIST_KEY_CFBundleExecutable = "Nad Extension";
 				INFOPLIST_KEY_CFBundleName = "Nad Extension";
-				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_CFBundleVersion = 1.1;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -735,7 +671,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = studio.aemi.Nad.iOSBlocker;
 				PRODUCT_NAME = "Nad for iOS";
 				SDKROOT = iphoneos;
@@ -744,24 +680,27 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Debug;
 		};
-		03346D9A26B08EA2004A268E /* Release */ = {
+		03346D9A26B08EA2004A268E /* Release configuration for PBXNativeTarget "Nad for iOS" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				AUTOMATION_APPLE_EVENTS = YES;
 				CODE_SIGN_ENTITLEMENTS = "Nad for iOS/Nad for iOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NP94WB3P75;
+				CURRENT_PROJECT_VERSION = 1.1;
+				ENABLE_APP_SANDBOX = YES;
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Nad for iOS/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Nad;
 				INFOPLIST_KEY_CFBundleExecutable = "Nad Extension";
 				INFOPLIST_KEY_CFBundleName = "Nad Extension";
-				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_CFBundleVersion = 1.1;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -771,7 +710,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = studio.aemi.Nad.iOSBlocker;
 				PRODUCT_NAME = "Nad for iOS";
 				SDKROOT = iphoneos;
@@ -780,19 +719,18 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,6";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		03346D9D26B08EA2004A268E /* Debug */ = {
+		03346D9D26B08EA2004A268E /* Debug configuration for PBXNativeTarget "Nad" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				AUTOMATION_APPLE_EVENTS = YES;
 				CLANG_ADDRESS_SANITIZER_CONTAINER_OVERFLOW = YES;
 				CLANG_ENABLE_OBJC_ARC_EXCEPTIONS = YES;
 				CLANG_UNDEFINED_BEHAVIOR_SANITIZER_INTEGER = YES;
@@ -832,9 +770,21 @@
 				CODE_SIGN_ENTITLEMENTS = Nad.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = NP94WB3P75;
+				CURRENT_PROJECT_VERSION = 1.1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_DYNAMIC_NO_PIC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -863,7 +813,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = Nad;
 				INFOPLIST_KEY_CFBundleExecutable = Nad;
 				INFOPLIST_KEY_CFBundleName = Nad;
-				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_CFBundleVersion = 1.1;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSAppleEventsUsageDescription = "Nad uses System Events to enable users to access Safari Extensions settings in an easier way.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -877,30 +827,35 @@
 				);
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = studio.aemi.Nad;
 				PRODUCT_NAME = Nad;
+				RUNTIME_EXCEPTION_ALLOW_DYLD_ENVIRONMENT_VARIABLES = NO;
+				RUNTIME_EXCEPTION_ALLOW_JIT = NO;
+				RUNTIME_EXCEPTION_ALLOW_UNSIGNED_EXECUTABLE_MEMORY = NO;
+				RUNTIME_EXCEPTION_DEBUGGING_TOOL = NO;
+				RUNTIME_EXCEPTION_DISABLE_EXECUTABLE_PAGE_PROTECTION = NO;
+				RUNTIME_EXCEPTION_DISABLE_LIBRARY_VALIDATION = NO;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Debug;
 		};
-		03346D9E26B08EA2004A268E /* Release */ = {
+		03346D9E26B08EA2004A268E /* Release configuration for PBXNativeTarget "Nad" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				AUTOMATION_APPLE_EVENTS = YES;
 				CLANG_ADDRESS_SANITIZER_CONTAINER_OVERFLOW = YES;
 				CLANG_ENABLE_OBJC_ARC_EXCEPTIONS = YES;
 				CLANG_UNDEFINED_BEHAVIOR_SANITIZER_INTEGER = YES;
@@ -940,9 +895,21 @@
 				CODE_SIGN_ENTITLEMENTS = Nad.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = NP94WB3P75;
+				CURRENT_PROJECT_VERSION = 1.1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
 				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PHOTO_LIBRARY = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_DYNAMIC_NO_PIC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -971,7 +938,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = Nad;
 				INFOPLIST_KEY_CFBundleExecutable = Nad;
 				INFOPLIST_KEY_CFBundleName = Nad;
-				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_CFBundleVersion = 1.1;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSAppleEventsUsageDescription = "Nad uses System Events to enable users to access Safari Extensions settings in an easier way.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -985,32 +952,50 @@
 				);
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				OTHER_LDFLAGS = (
 					"-framework",
 					WebKit,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = studio.aemi.Nad;
 				PRODUCT_NAME = Nad;
+				RUNTIME_EXCEPTION_ALLOW_DYLD_ENVIRONMENT_VARIABLES = NO;
+				RUNTIME_EXCEPTION_ALLOW_JIT = NO;
+				RUNTIME_EXCEPTION_ALLOW_UNSIGNED_EXECUTABLE_MEMORY = NO;
+				RUNTIME_EXCEPTION_DEBUGGING_TOOL = NO;
+				RUNTIME_EXCEPTION_DISABLE_EXECUTABLE_PAGE_PROTECTION = NO;
+				RUNTIME_EXCEPTION_DISABLE_LIBRARY_VALIDATION = NO;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,6";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		4670301A2C798E9000A02F3C /* Debug */ = {
+		4670301A2C798E9000A02F3C /* Debug configuration for PBXNativeTarget "Nad for macOS" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				AUTOMATION_APPLE_EVENTS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_ENTITLEMENTS = "Nad for macOS/Nad_for_macOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NP94WB3P75;
+				CURRENT_PROJECT_VERSION = 1.1;
+				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				ENABLE_USER_SELECTED_FILES = readonly;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Nad for macOS/Info.plist";
@@ -1024,25 +1009,37 @@
 				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = studio.aemi.Nad.macOSBlocker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		4670301B2C798E9000A02F3C /* Release */ = {
+		4670301B2C798E9000A02F3C /* Release configuration for PBXNativeTarget "Nad for macOS" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				AUTOMATION_APPLE_EVENTS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_ENTITLEMENTS = "Nad for macOS/Nad_for_macOS.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NP94WB3P75;
+				CURRENT_PROJECT_VERSION = 1.1;
+				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				ENABLE_USER_SELECTED_FILES = readonly;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Nad for macOS/Info.plist";
@@ -1056,13 +1053,12 @@
 				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = studio.aemi.Nad.macOSBlocker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -1072,40 +1068,50 @@
 		03346D3126B08EA1004A268E /* Build configuration list for PBXProject "Nad" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				03346D9626B08EA2004A268E /* Debug */,
-				03346D9726B08EA2004A268E /* Release */,
+				03346D9626B08EA2004A268E /* Debug configuration for PBXProject "Nad" */,
+				03346D9726B08EA2004A268E /* Release configuration for PBXProject "Nad" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		03346D9826B08EA2004A268E /* Build configuration list for PBXNativeTarget "Nad for iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				03346D9926B08EA2004A268E /* Debug */,
-				03346D9A26B08EA2004A268E /* Release */,
+				03346D9926B08EA2004A268E /* Debug configuration for PBXNativeTarget "Nad for iOS" */,
+				03346D9A26B08EA2004A268E /* Release configuration for PBXNativeTarget "Nad for iOS" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		03346D9C26B08EA2004A268E /* Build configuration list for PBXNativeTarget "Nad" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				03346D9D26B08EA2004A268E /* Debug */,
-				03346D9E26B08EA2004A268E /* Release */,
+				03346D9D26B08EA2004A268E /* Debug configuration for PBXNativeTarget "Nad" */,
+				03346D9E26B08EA2004A268E /* Release configuration for PBXNativeTarget "Nad" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		467030192C798E9000A02F3C /* Build configuration list for PBXNativeTarget "Nad for macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4670301A2C798E9000A02F3C /* Debug */,
-				4670301B2C798E9000A02F3C /* Release */,
+				4670301A2C798E9000A02F3C /* Debug configuration for PBXNativeTarget "Nad for macOS" */,
+				4670301B2C798E9000A02F3C /* Release configuration for PBXNativeTarget "Nad for macOS" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		467F33752E8057A8002F7037 /* XCLocalSwiftPackageReference "../AemiSDR/AemiSDR" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../AemiSDR/AemiSDR;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		467F33762E8057A8002F7037 /* AemiSDR */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AemiSDR;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 03346D2E26B08EA1004A268E /* Project object */;
 }

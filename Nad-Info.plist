@@ -4,6 +4,27 @@
 <dict>
 	<key>CFBundleIcons</key>
 	<dict>
+		<key>CFBundleAlternativeIcons</key>
+		<dict>
+			<key>AppIcon-2</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Icon-2</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+			<key>AppIcon-3</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>Icon-3</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+		</dict>
 		<key>CFBundlePrimaryIcon</key>
 		<dict>
 			<key>CFBundleIconFiles</key>
@@ -13,27 +34,6 @@
 			<key>UIPrerenderedIcon</key>
 			<false/>
 		</dict>
-        <key>CFBundleAlternativeIcons</key>
-        <dict>
-            <key>AppIcon-2</key>
-            <dict>
-                <key>CFBundleIconFiles</key>
-                <array>
-                    <string>Icon-2</string>
-                </array>
-                <key>UIPrerenderedIcon</key>
-                <false/>
-            </dict>
-            <key>AppIcon-3</key>
-            <dict>
-                <key>CFBundleIconFiles</key>
-                <array>
-                    <string>Icon-3</string>
-                </array>
-                <key>UIPrerenderedIcon</key>
-                <false/>
-            </dict>
-        </dict>
 	</dict>
 </dict>
 </plist>

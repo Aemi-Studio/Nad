@@ -6,12 +6,12 @@
 //
 
 import SwiftUI
+import WebKit
 #if os(macOS)
-import AppKit
+    import AppKit
 #endif
 
 struct WebButton: View {
-
     @State
     private var isModalPresentedWebView: Bool = false
 
@@ -26,11 +26,11 @@ struct WebButton: View {
         Button {
             if openDefault {
                 if let url = URL(string: url) {
-                    #if os(iOS)
+#if os(iOS)
                     UIApplication.shared.open(url)
-                    #elseif os(macOS)
+#elseif os(macOS)
                     NSWorkspace.shared.open(url)
-                    #endif
+#endif
                 }
             } else {
                 isModalPresentedWebView.toggle()
@@ -46,10 +46,8 @@ struct WebButton: View {
                     Image(systemName: "circle")
                         .foregroundStyle(.clear)
                         .overlay {
-                            Image(
-                                systemName: "arrow.up.forward"
-                            )
-                            .foregroundStyle(Color.secondary)
+                            Image(systemName: "arrow.up.forward")
+                                .foregroundStyle(Color.secondary)
                         }
                         .fontWeight(.bold)
                 }
@@ -57,23 +55,26 @@ struct WebButton: View {
                 .fontDesign(.rounded)
             }
         }
-        .buttonStyle(InformationButtonStyle())
+        .buttonStyle(.information)
         .contextMenu {
             Button("Open in your default browser", systemImage: "arrow.up.forward.square") {
                 if let url = URL(string: url) {
-                    #if os(iOS)
+#if os(iOS)
                     UIApplication.shared.open(url)
-                    #elseif os(macOS)
+#elseif os(macOS)
                     NSWorkspace.shared.open(url)
-                    #endif
+#endif
                 }
             }
         }
-
-        #if os(iOS)
-        .fullScreenCover(isPresented: $isModalPresentedWebView) {
-        SafariView(url: URL(string: url)!)
+        .sheet(isPresented: $isModalPresentedWebView) {
+            webView
         }
-        #endif
+    }
+    
+    @ViewBuilder private var webView: some View {
+        if let url = URL(string: url) {
+            WebView(url: url)
+        }
     }
 }

@@ -6,25 +6,21 @@
 //
 
 #if os(macOS)
-import Foundation
-import SwiftUI
+    import SwiftUI
 
-struct VisualEffectView: NSViewRepresentable {
-    func makeNSView(context: Context) -> NSVisualEffectView {
-        let effectView = NSVisualEffectView()
-        effectView.state = .active
-        return effectView
+    struct VisualEffectView: NSViewRepresentable {
+        func makeNSView(context _: Context) -> NSVisualEffectView {
+            let effectView = NSVisualEffectView()
+            effectView.state = .active
+            return effectView
+        }
+
+        func updateNSView(_: NSVisualEffectView, context _: Context) {}
     }
 
-    func updateNSView(_ nsView: NSVisualEffectView, context: Context) {
+    extension View {
+        func blurryBackground() -> some View {
+            background(VisualEffectView().ignoresSafeArea())
+        }
     }
-}
-
-extension View {
-    func blurryBackground() -> some View {
-        self
-            .background(VisualEffectView().ignoresSafeArea())
-    }
-}
-
 #endif

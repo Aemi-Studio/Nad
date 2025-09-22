@@ -9,22 +9,36 @@ import SwiftUI
 import SafariServices
 
 #if os(iOS)
-
-struct SafariView: ViewControllerRepresentable {
-
+private struct SafariViewRepresentable: ViewControllerRepresentable {
     let url: URL
+    let color: Color?
 
     func makeUIViewController(
-        context: ViewControllerRepresentableContext<SafariView>
+        context: ViewControllerRepresentableContext<SafariViewRepresentable>
     ) -> SFSafariViewController {
-        return SFSafariViewController(url: url)
+        SFSafariViewController(url: url)
     }
 
     func updateUIViewController(
         _ uiViewController: SFSafariViewController,
-        context: ViewControllerRepresentableContext<SafariView>
+        context: ViewControllerRepresentableContext<SafariViewRepresentable>
     ) {
         // No need to update the view controller
     }
 }
 #endif
+
+@MainActor
+struct WebView: View {
+    let url: URL?
+    private(set) var color = Color?.none
+    
+    var body: some View {
+        #if os(iOS)
+        if let url {
+            SafariViewRepresentable(url: url, color: color)
+        }
+        #endif
+    }
+}
+

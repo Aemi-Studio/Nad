@@ -9,72 +9,92 @@ import Foundation
 import SwiftUI
 
 struct HeroView: View {
-
-    @Environment(\.colorScheme)
-    private var colorScheme
-
-    @Environment(BlockerState.self)
-    private var blockerState
-
-    private var isEnabled: Bool {
-        blockerState.isEnabled
-    }
-
-    private var enabledColor: Color {
-        isEnabled ? .green : .red
-    }
-
-    private var nadColor: Color {
-        colorScheme == .dark ? .background : enabledColor
-    }
-
-    private var shadowColor: Color {
-        colorScheme == .dark ? enabledColor : enabledColor.opacity(0.5)
-    }
-
+    @Environment(\.colorScheme) private var colorScheme
+    @Environment(BlockerState.self) private var blockerState
+    
     var body: some View {
         VStack(spacing: 32) {
-
-            NadLogoHeaderView(
-                mainColor: nadColor,
-                shadowColor: shadowColor,
-                colorScheme: colorScheme
-            )
-
-            VStack {
-                VStack(spacing: 12) {
-                    Text("nad")
-                        .font(.largeTitle)
-                        .fontWidth(.expanded)
-                        .fontWeight(.black)
-                        .zIndex(100)
-
-                    VStack {
-                        Text(isEnabled ? "enabled" : "disabled")
-                            .font(.headline)
-                            .fontWidth(.expanded)
-                            .fontWeight(.bold)
-                            .foregroundStyle(.white)
-                            .multilineTextAlignment(.center)
-                            .textCase(.uppercase)
-                            .kerning(1)
-                    }
-                    .padding(.vertical, 10)
-                    .padding(.horizontal, 14)
-                    .background(enabledColor)
-                    .clipShape(.rect(cornerRadius: UIConstants.tightRadius))
-                    .shadow(color: shadowColor.opacity(0.1), radius: 30)
-                    .shadow(color: shadowColor.opacity(0.2), radius: 15)
-                    .shadow(color: shadowColor.opacity(0.4), radius: 5)
-
-                }
-                if !isEnabled {
-                    EnableCTAView()
-                }
+            VStack(spacing: 16) {
+                appTitle
+                stateBadge
+            }
+            if showCTA {
+                EnableCTAView(color: stateColor)
             }
         }
         .frame(maxWidth: .infinity)
-        .padding(.top, 64)
-        .padding(.bottom, isEnabled ? 48 : 6)
+    }
+    
+    private var appTitle: some View {
+        Text("nad")
+            .font(.largeTitle)
+            .fontWidth(.expanded)
+            .fontWeight(.black)
+    }
+    
+    private var showCTA: Bool {
+        switch blockerState.state {
+            case .disabled, .error, .unknown:
+                true
+            default:
+                false
+        }
+    }
+}
+
+private extension HeroView {
+    private var stateBadge: some View {
+        badgeEffect {
+            VStack {
+                stateTextView
+                    .font(.headline)
+                    .fontWidth(.expanded)
+                    .fontWeight(.bold)
+                    .foregroundStyle(.white)
+                    .multilineTextAlignment(.center)
+                    .textCase(.uppercase)
+                    .kerning(1)
+            }
+            .padding(.vertical, 10)
+            .padding(.horizontal, 14)
+        }
+    }
+    
+    @ViewBuilder private var stateTextView: some View {
+        switch blockerState.state {
+            case .unknown:
+                ProgressView().progressViewStyle(.circular).tint(.white)
+            default:
+                Text(blockerState.state.description)
+        }
+    }
+    
+    @ViewBuilder private func badgeEffect(@ViewBuilder content: @escaping () -> some View) -> some View {
+        Group {
+            if #available(iOS 26.0, macOS 26.0, *) {
+                content()
+                    .glass(.regular.tint(stateColor), in: .rect(cornerRadius: UIConstants.tightRadius))
+            } else {
+                content()
+                    .background(stateColor, in: .rect(cornerRadius: UIConstants.tightRadius))
+            }
+        }
+        .shadow(color: shadowColor.opacity(0.1), radius: 30)
+        .shadow(color: shadowColor.opacity(0.2), radius: 15)
+        .shadow(color: shadowColor.opacity(0.4), radius: 5)
+    }
+}
+
+private extension HeroView {
+    private var isEnabled: Bool {
+        blockerState.state.boolean
+    }
+    
+    private var stateColor: Color {
+        blockerState.state.color
+    }
+    
+    private var shadowColor: Color {
+        colorScheme == .dark ? stateColor : stateColor.opacity(0.5)
     }
 }
