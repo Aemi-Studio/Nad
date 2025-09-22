@@ -5,21 +5,21 @@ import SwiftUI
 @MainActor
 final class BlockerState: Animatable {
     #if os(iOS)
-        private let identifier: String = "studio.aemi.Nad.iOSBlocker"
+    private let identifier: String = "studio.aemi.Nad.iOSBlocker"
     #elseif os(macOS)
-        private let identifier: String = "studio.aemi.Nad.macOSBlocker"
+    private let identifier: String = "studio.aemi.Nad.macOSBlocker"
     #endif
 
     private(set) var state = State.unknown {
         didSet {
             #if os(iOS)
-                Task { @MainActor in
-                    if state.boolean {
-                        Tools.setAlternateIconName("AppIcon2")
-                    } else {
-                        Tools.setAlternateIconName("AppIcon3")
-                    }
+            Task { @MainActor in
+                if state.boolean {
+                    Tools.setAlternateIconName("AppIcon2")
+                } else {
+                    Tools.setAlternateIconName("AppIcon3")
                 }
+            }
             #endif
         }
     }
@@ -30,16 +30,17 @@ final class BlockerState: Animatable {
         let notificationName: NSNotification.Name
 
         #if os(macOS)
-            notificationName = NSWindow.didBecomeMainNotification
+        notificationName = NSWindow.didBecomeMainNotification
         #else
-            notificationName = UIApplication.didBecomeActiveNotification
+        notificationName = UIApplication.didBecomeActiveNotification
         #endif
 
-        notification = NotificationCenter.default.addObserver(forName: notificationName, object: nil, queue: .main) { [weak self] _ in
-            Task { @MainActor [weak self] in
-                self?.refresh()
+        notification = NotificationCenter.default
+            .addObserver(forName: notificationName, object: nil, queue: .main) { [weak self] _ in
+                Task { @MainActor [weak self] in
+                    self?.refresh()
+                }
             }
-        }
 
         refresh()
     }

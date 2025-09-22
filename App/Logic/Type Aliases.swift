@@ -8,15 +8,15 @@
 import SwiftUI
 
 #if os(macOS)
-    import AppKit
+import AppKit
 
-    typealias ViewRepresentable = NSViewRepresentable
-    typealias ViewControllerRepresentable = NSViewControllerRepresentable
-    typealias ViewControllerRepresentableContext = NSViewControllerRepresentableContext
+typealias ViewRepresentable = NSViewRepresentable
+typealias ViewControllerRepresentable = NSViewControllerRepresentable
+typealias ViewControllerRepresentableContext = NSViewControllerRepresentableContext
 #else
-    import UIKit
+import UIKit
 
-    typealias ViewRepresentable = UIViewRepresentable
-    typealias ViewControllerRepresentable = UIViewControllerRepresentable
-    typealias ViewControllerRepresentableContext = UIViewControllerRepresentableContext
+typealias ViewRepresentable = UIViewRepresentable
+typealias ViewControllerRepresentable = UIViewControllerRepresentable
+typealias ViewControllerRepresentableContext = UIViewControllerRepresentableContext
 #endif

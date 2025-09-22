@@ -26,9 +26,9 @@ struct MainScreen: View {
 private extension MainScreen {
     static var initialViewHeight: CGFloat {
         #if os(iOS)
-            UIScreen.activeScreen?.bounds.height ?? 0.0
+        UIScreen.activeScreen?.bounds.height ?? 0.0
         #elseif os(macOS)
-            NSApplication.shared.windows.first?.frame.height ?? 0.0
+        NSApplication.shared.windows.first?.frame.height ?? 0.0
         #endif
     }
 }
@@ -111,21 +111,21 @@ private extension MainScreen {
 private extension View {
     func fancyBlur() -> some View {
         #if os(iOS)
-            roundedRectMask(fadeWidth: 14)
-                .roundedRectBlur(fadeWidth: 14)
-                .overlay {
-                    GeometryReader { proxy in
-                        Color.clear
-                            .verticalEdgeMask(height: proxy.safeAreaInsets.top + 32, edges: .top)
-                            .verticalEdgeMask(height: proxy.safeAreaInsets.bottom + 32, edges: .bottom)
-                            .verticalEdgeBlur(height: proxy.safeAreaInsets.top + 32, maxBlurRadius: 10, edges: .top)
-                            .verticalEdgeBlur(height: proxy.safeAreaInsets.bottom + 32, edges: .bottom)
-                    }
+        roundedRectMask(fadeWidth: 14)
+            .roundedRectBlur(fadeWidth: 14)
+            .overlay {
+                GeometryReader { proxy in
+                    Color.clear
+                        .verticalEdgeMask(height: proxy.safeAreaInsets.top + 32, edges: .top)
+                        .verticalEdgeMask(height: proxy.safeAreaInsets.bottom + 32, edges: .bottom)
+                        .verticalEdgeBlur(height: proxy.safeAreaInsets.top + 32, maxBlurRadius: 10, edges: .top)
+                        .verticalEdgeBlur(height: proxy.safeAreaInsets.bottom + 32, edges: .bottom)
                 }
-        #else
-            mask {
-                maskContent
             }
+        #else
+        mask {
+            maskContent
+        }
         #endif
     }
 

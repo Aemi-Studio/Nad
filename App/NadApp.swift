@@ -8,11 +8,11 @@ struct NadApp: App {
     var body: some Scene {
         WindowGroup {
             MainScreen()
-            #if os(macOS)
+                #if os(macOS)
                 .frame(minWidth: 375, minHeight: 604)
                 .frame(maxWidth: 375, maxHeight: 604)
                 .blurryBackground()
-            #endif
+                #endif
                 .environment(blockerState)
         }
         #if os(macOS)

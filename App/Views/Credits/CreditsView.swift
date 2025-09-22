@@ -29,9 +29,9 @@ struct CreditsView: View {
 
     private var bottomPadding: CGFloat {
         #if os(iOS)
-            32 + bottomSafeAreaInset
+        32 + bottomSafeAreaInset
         #else
-            16 + bottomSafeAreaInset
+        16 + bottomSafeAreaInset
         #endif
     }
 

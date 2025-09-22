@@ -61,7 +61,7 @@ struct RetroGlass: Sendable, Equatable {
         case .regular: .regular
         }
 
-        let coloredGlass: Glass = if let _color {
+        let coloredGlass: Glass = if let _color { // swiftlint:disable:this identifier_name
             baseGlass.tint(_color)
         } else {
             baseGlass

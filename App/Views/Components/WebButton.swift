@@ -8,7 +8,7 @@
 import SwiftUI
 import WebKit
 #if os(macOS)
-    import AppKit
+import AppKit
 #endif
 
 struct WebButton: View {
@@ -27,9 +27,9 @@ struct WebButton: View {
             if openDefault {
                 if let url = URL(string: url) {
                     #if os(iOS)
-                        UIApplication.shared.open(url)
+                    UIApplication.shared.open(url)
                     #elseif os(macOS)
-                        NSWorkspace.shared.open(url)
+                    NSWorkspace.shared.open(url)
                     #endif
                 }
             } else {
@@ -60,9 +60,9 @@ struct WebButton: View {
             Button("Open in your default browser", systemImage: "arrow.up.forward.square") {
                 if let url = URL(string: url) {
                     #if os(iOS)
-                        UIApplication.shared.open(url)
+                    UIApplication.shared.open(url)
                     #elseif os(macOS)
-                        NSWorkspace.shared.open(url)
+                    NSWorkspace.shared.open(url)
                     #endif
                 }
             }

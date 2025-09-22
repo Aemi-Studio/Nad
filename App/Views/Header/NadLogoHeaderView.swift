@@ -43,13 +43,13 @@ struct NadLogoHeaderView: View {
 
     private var imageStyle: some ShapeStyle {
         #if os(macOS)
-            if colorScheme == .dark {
-                AnyShapeStyle(Material.regularMaterial)
-            } else {
-                AnyShapeStyle(Color(white: 0, opacity: 0.8))
-            }
+        if colorScheme == .dark {
+            AnyShapeStyle(Material.regularMaterial)
+        } else {
+            AnyShapeStyle(Color(white: 0, opacity: 0.8))
+        }
         #else
-            mainColor
+        mainColor
         #endif
     }
 }

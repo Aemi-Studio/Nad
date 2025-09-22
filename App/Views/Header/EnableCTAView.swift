@@ -31,9 +31,9 @@ struct EnableCTAView: View {
 
     private var callToActionTitleText: String {
         #if os(iOS)
-            String(localized: "enable.nad.settings")
+        String(localized: "enable.nad.settings")
         #elseif os(macOS)
-            String(localized: "enable.nad.safari")
+        String(localized: "enable.nad.safari")
         #endif
     }
 
@@ -43,34 +43,34 @@ struct EnableCTAView: View {
 
     private var callToActionBreadcrumbs: [String] {
         #if os(iOS)
-            if #available(iOS 18, *) {
-                [
-                    String(localized: "settings.title"),
-                    String(localized: "settings.apps.title"),
-                    "Safari",
-                    String(localized: "settings.apps.safari.extensions"),
-                ]
-            } else {
-                [
-                    String(localized: "settings.title"),
-                    "Safari",
-                    String(localized: "settings.apps.safari.extensions"),
-                ]
-            }
-        #elseif os(macOS)
+        if #available(iOS 18, *) {
             [
-                "Safari",
                 String(localized: "settings.title"),
-                String(localized: "settings.apps.safari.extensions"),
+                String(localized: "settings.apps.title"),
+                "Safari",
+                String(localized: "settings.apps.safari.extensions")
             ]
+        } else {
+            [
+                String(localized: "settings.title"),
+                "Safari",
+                String(localized: "settings.apps.safari.extensions")
+            ]
+        }
+        #elseif os(macOS)
+        [
+            "Safari",
+            String(localized: "settings.title"),
+            String(localized: "settings.apps.safari.extensions")
+        ]
         #endif
     }
 
     private func openSettings() {
         #if os(iOS)
-            Tools.openSettingsApplication()
+        Tools.openSettingsApplication()
         #elseif os(macOS)
-            Tools.openNadExtensionPreferences()
+        Tools.openNadExtensionPreferences()
         #endif
     }
 }
