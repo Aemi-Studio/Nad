@@ -12,13 +12,15 @@ final class BlockerState: Animatable {
 
     private(set) var state = State.unknown {
         didSet {
-            Task { @MainActor in
-                if state.boolean {
-                    Tools.setAlternateIconName("AppIcon2")
-                } else {
-                    Tools.setAlternateIconName("AppIcon3")
+            #if os(iOS)
+                Task { @MainActor in
+                    if state.boolean {
+                        Tools.setAlternateIconName("AppIcon2")
+                    } else {
+                        Tools.setAlternateIconName("AppIcon3")
+                    }
                 }
-            }
+            #endif
         }
     }
 
