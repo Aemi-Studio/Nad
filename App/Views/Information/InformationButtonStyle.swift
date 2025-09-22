@@ -21,6 +21,7 @@ struct InformationButtonStyle: ButtonStyle {
             }
         }
         .contentShape(.rect)
+        .sensoryFeedback(.impact(weight: .medium), trigger: configuration.isPressed)
     }
 
     private var clippingShape: some Shape {

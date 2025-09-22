@@ -88,6 +88,7 @@ private struct CallToActionButtonStyle: ButtonStyle {
                 .frame(maxWidth: .infinity)
         }
         .contentShape(.rect)
+        .sensoryFeedback(.start, trigger: configuration.isPressed)
     }
 
     @ViewBuilder
