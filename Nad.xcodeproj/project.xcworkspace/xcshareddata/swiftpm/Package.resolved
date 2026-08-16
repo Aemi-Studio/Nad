@@ -1,0 +1,24 @@
+{
+  "originHash" : "18e6bc8331c1ac4b7521b413b18fe452ed6cff6c98d071d492378125b75a3930",
+  "pins" : [
+    {
+      "identity" : "aemi",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Aemi-Studio/aemi.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "3930ecdab69611ea240a48a3a540f9f1f4cffe46"
+      }
+    },
+    {
+      "identity" : "swift-syntax",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/swiftlang/swift-syntax.git",
+      "state" : {
+        "revision" : "4799286537280063c85a32f09884cfbca301b1a1",
+        "version" : "602.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}

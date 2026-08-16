@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		03346D6926B08EA2004A268E /* Nad for iOS.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 03346D6826B08EA2004A268E /* Nad for iOS.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		03346D8226B08EA2004A268E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03346D3A26B08EA2004A268E /* Assets.xcassets */; };
 		036A5C6E26C44E1500A76915 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036A5C6D26C44E1500A76915 /* MainScreen.swift */; };
 		0381081326CC50D9008A912C /* BlockerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0381081226CC50D9008A912C /* BlockerState.swift */; };
 		03AB920126BB211E00C6DFFD /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AB91F726BB20CE00C6DFFD /* ContentBlockerRequestHandler.swift */; };
@@ -24,13 +23,11 @@
 		463CFD1D2E80B0310082389A /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463CFD1C2E80B0300082389A /* SafariView.swift */; };
 		463CFD212E80BEC60082389A /* Loggable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463CFD202E80BEC20082389A /* Loggable.swift */; };
 		463CFD232E80C9360082389A /* InformationButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463CFD222E80C9360082389A /* InformationButtonStyle.swift */; };
-		4661C72E2C799296004DF0A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03346D3A26B08EA2004A268E /* Assets.xcassets */; };
 		4670300E2C798E9000A02F3C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46AE68AA2C76DA3400CF3E4B /* Cocoa.framework */; };
 		467030182C798E9000A02F3C /* Nad for macOS.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4670300D2C798E9000A02F3C /* Nad for macOS.appex */; platformFilters = (macos, ); settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4670301F2C798F0F00A02F3C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4670301D2C798F0F00A02F3C /* InfoPlist.strings */; };
 		467030202C798F5700A02F3C /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AB91F726BB20CE00C6DFFD /* ContentBlockerRequestHandler.swift */; };
 		467F33772E8057A8002F7037 /* AemiSDR in Frameworks */ = {isa = PBXBuildFile; productRef = 467F33762E8057A8002F7037 /* AemiSDR */; };
-		46AE68BF2C78150C00CF3E4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03346D3A26B08EA2004A268E /* Assets.xcassets */; };
 		46CDC8AC2C81234F001AD89D /* VisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CDC8AB2C81234F001AD89D /* VisualEffectView.swift */; };
 		46CDC8B22C813472001AD89D /* Type Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CDC8B12C813472001AD89D /* Type Aliases.swift */; };
 		46CDC8B62C813EC9001AD89D /* PrivacyPolicyMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CDC8B52C813EC9001AD89D /* PrivacyPolicyMenuView.swift */; };
@@ -74,7 +71,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		03346D3A26B08EA2004A268E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03346D4A26B08EA2004A268E /* Nad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03346D6826B08EA2004A268E /* Nad for iOS.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Nad for iOS.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		036A5C6D26C44E1500A76915 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
@@ -112,6 +108,41 @@
 		46CDC8CA2C81E24E001AD89D /* WebButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebButton.swift; path = App/Views/Components/WebButton.swift; sourceTree = SOURCE_ROOT; };
 		46CDC8CC2C81E288001AD89D /* Nad-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Nad-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		46EC0D802E8202E6002A0644 /* Exceptions for "Resources" folder in "Nad for iOS" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AppIcon.icon,
+				AppIcon2.icon,
+				AppIcon3.icon,
+				Assets.xcassets,
+			);
+			target = 03346D6726B08EA2004A268E /* Nad for iOS */;
+		};
+		46EC0D812E8202E6002A0644 /* Exceptions for "Resources" folder in "Nad for macOS" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AppIcon.icon,
+				AppIcon2.icon,
+				AppIcon3.icon,
+				Assets.xcassets,
+			);
+			target = 4670300C2C798E9000A02F3C /* Nad for macOS */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		46EC0D7F2E8202E5002A0644 /* Resources */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				46EC0D802E8202E6002A0644 /* Exceptions for "Resources" folder in "Nad for iOS" target */,
+				46EC0D812E8202E6002A0644 /* Exceptions for "Resources" folder in "Nad for macOS" target */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		03346D4726B08EA2004A268E /* Frameworks */ = {
@@ -157,7 +188,7 @@
 				46CDC8C42C81E17F001AD89D /* Logic */,
 				46CDC8C52C81E18D001AD89D /* Views */,
 				03AB922626BB254800C6DFFD /* NadApp.swift */,
-				03346D3A26B08EA2004A268E /* Assets.xcassets */,
+				46EC0D7F2E8202E5002A0644 /* Resources */,
 				46209BAF2C792350004FE6E1 /* Localizable.xcstrings */,
 			);
 			path = App;
@@ -316,6 +347,9 @@
 				03346D6B26B08EA2004A268E /* PBXTargetDependency */,
 				467030172C798E9000A02F3C /* PBXTargetDependency */,
 			);
+			fileSystemSynchronizedGroups = (
+				46EC0D7F2E8202E5002A0644 /* Resources */,
+			);
 			name = Nad;
 			productName = "Ka-Block (iOS)";
 			productReference = 03346D4A26B08EA2004A268E /* Nad.app */;
@@ -382,7 +416,7 @@
 			mainGroup = 03346D2D26B08EA1004A268E;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				467F33752E8057A8002F7037 /* XCLocalSwiftPackageReference "../AemiSDR/AemiSDR" */,
+				467F33752E8057A8002F7037 /* XCLocalSwiftPackageReference "../AemiSDR" */,
 			);
 			preferredProjectObjectVersion = 90;
 			productRefGroup = 03346D4B26B08EA2004A268E /* Products */;
@@ -400,7 +434,6 @@
 		03346D4826B08EA2004A268E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
-				03346D8226B08EA2004A268E /* Assets.xcassets in Resources */,
 				462029882C7A680300EA021A /* eo+general.json in Resources */,
 				46209BB02C792350004FE6E1 /* Localizable.xcstrings in Resources */,
 			);
@@ -408,7 +441,6 @@
 		03346D6626B08EA2004A268E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
-				46AE68BF2C78150C00CF3E4B /* Assets.xcassets in Resources */,
 				462029892C7A680300EA021A /* eo+general.json in Resources */,
 				46209BB42C7936D0004FE6E1 /* InfoPlist.strings in Resources */,
 			);
@@ -416,7 +448,6 @@
 		4670300B2C798E9000A02F3C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
-				4661C72E2C799296004DF0A5 /* Assets.xcassets in Resources */,
 				4620298A2C7A680300EA021A /* eo+general.json in Resources */,
 				4670301F2C798F0F00A02F3C /* InfoPlist.strings in Resources */,
 			);
@@ -431,6 +462,7 @@
 			shellPath = /bin/sh;
 			shellScript = (
 				"/opt/homebrew/bin/swiftlint --fix --format && /opt/homebrew/bin/swiftlint",
+				"",
 				"",
 			);
 		};
@@ -517,6 +549,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_OPTIMIZATION = space;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -551,6 +584,8 @@
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = NP94WB3P75;
+				ENABLE_INCREMENTAL_DISTILL = YES;
+				ENABLE_ONLY_ACTIVE_RESOURCES = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -571,7 +606,7 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 0.1;
+				MARKETING_VERSION = 2.0.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -587,6 +622,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_OPTIMIZATION = space;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -621,7 +657,9 @@
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = NP94WB3P75;
+				ENABLE_INCREMENTAL_DISTILL = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_ONLY_ACTIVE_RESOURCES = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -635,7 +673,7 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 0.1;
+				MARKETING_VERSION = 2.0.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -1100,9 +1138,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		467F33752E8057A8002F7037 /* XCLocalSwiftPackageReference "../AemiSDR/AemiSDR" */ = {
+		467F33752E8057A8002F7037 /* XCLocalSwiftPackageReference "../AemiSDR" */ = {
 			isa = XCLocalSwiftPackageReference;
-			relativePath = ../AemiSDR/AemiSDR;
+			relativePath = ../AemiSDR;
 		};
 /* End XCLocalSwiftPackageReference section */
 
